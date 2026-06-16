@@ -1,18 +1,30 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+[RequireComponent(typeof(Rigidbody2D))]
 public class character_script : MonoBehaviour
 {
-    Rigidbody2D rb;
     public float forceAmount = 10f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("Movement Settings")]
+    public float moveSpeed = 5f;       // Horizontal movement speed
+    public float jumpForce = 10f;      // Jump strength
+
+    [Header("Ground Check Settings")]
+    public Transform groundCheck;      // Empty GameObject at feet position
+    public float groundCheckRadius = 0.2f;
+    public LayerMask groundLayer;      // Layer(s) considered as ground
+
+    private Rigidbody2D rb;
+    private bool isGrounded;
+    private float moveInput;
+
+    void Awake()
     {
-        rb = gameObject.GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Keyboard.current.spaceKey.isPressed)
@@ -31,6 +43,30 @@ public class character_script : MonoBehaviour
         {
             // Apply an upward force
             rb.AddForce(Vector3.right * forceAmount, (ForceMode2D)ForceMode.Impulse);
+        } 
+         // Check if player is on the ground
+         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        // Jump input
+        if (Keyboard.current.upArrowKey.wasPressedThisFrame &&isGrounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        }
+    }
+
+    void FixedUpdate()
+    {
+        // Apply horizontal movement
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+    }
+
+    // Draw ground check radius in editor
+    void OnDrawGizmosSelected()
+    {
+        if (groundCheck != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
 }
