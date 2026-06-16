@@ -3,10 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
+
   tags:
   - bur
   - riktiga buren
   - bur3
+
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - GroundLayer
   - 
   - 
   - 
