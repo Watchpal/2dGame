@@ -127,4 +127,7 @@ public class CharacterMovement : MonoBehaviour
             groundCheckRadius
         );
     }
+    public Vector2 Velocity => rb.linearVelocity;
+    public bool IsGrounded => isGrounded;
+    public float MoveInputX => moveInput.x;
 }
