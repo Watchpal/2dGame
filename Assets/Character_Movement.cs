@@ -3,6 +3,10 @@ using UnityEngine.InputSystem;
 
 public class CharacterMovement : MonoBehaviour
 {
+    [SerializeField] private Transform carryPoint;
+
+    private dandelion carriedDandelion;
+
     [Header("Movement")]
     public float moveSpeed = 5f;
     public float jumpForce = 8f;
@@ -115,6 +119,35 @@ public class CharacterMovement : MonoBehaviour
                 rb.linearVelocity.y * 0.5f
             );
         }
+    }
+    private void TryPickup()
+    {
+        if (carriedDandelion != null)
+            return;
+
+        Collider2D hit =
+            Physics2D.OverlapCircle(
+                transform.position,
+                1f
+                
+            );
+
+        if (hit)
+        {
+            carriedDandelion =
+                hit.GetComponent<dandelion>();
+
+            carriedDandelion.PickUp(carryPoint);
+        }
+    }
+
+    private void DropDandelion()
+    {
+        if (carriedDandelion == null)
+            return;
+
+        carriedDandelion.Drop();
+        carriedDandelion = null;
     }
 
     private void OnDrawGizmosSelected()
