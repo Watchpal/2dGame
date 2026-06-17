@@ -159,6 +159,34 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "Talk",
+            "id": "90356bb6-422e-447e-9275-1b691e1dcb05",
+            "actions": [
+                {
+                    "name": "Talk",
+                    "type": "Button",
+                    "id": "b7b4b7c6-a505-4ba9-8f67-2db10d7016ad",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "20ee954a-b801-43ba-8802-0d86df41d44d",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Talk",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
