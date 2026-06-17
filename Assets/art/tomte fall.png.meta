@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9196adcda838dc745b5af7e65f1c1bc2
+guid: afe85e57c021848499f737af253a37bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5864579725387812279
-    second: tomte land_0007_0
+      213: 3366846759596437114
+    second: tomte fall_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tomte land_0007_0
+      name: tomte fall_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 59
-        width: 152
-        height: 257
+        x: 12
+        y: 4
+        width: 171
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bdc2b8303c236150800000000000000
-      internalID: 5864579725387812279
+      spriteID: a7eabee1a4179be20800000000000000
+      internalID: 3366846759596437114
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tomte land_0007_0: 5864579725387812279
+      tomte fall_0: 3366846759596437114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
