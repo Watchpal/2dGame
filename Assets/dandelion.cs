@@ -2,17 +2,22 @@ using UnityEngine;
 
 public class dandelion : MonoBehaviour
 {
+    private Rigidbody2D rb;
+
     public bool IsCarried { get; private set; }
 
-    public void PickUp(Transform CarryPoint)
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    public void PickUp(Transform carryPoint)
     {
         IsCarried = true;
 
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-
         rb.simulated = false;
 
-        transform.SetParent(CarryPoint);
+        transform.SetParent(carryPoint);
         transform.localPosition = Vector3.zero;
     }
 
@@ -22,19 +27,6 @@ public class dandelion : MonoBehaviour
 
         transform.SetParent(null);
 
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-
         rb.simulated = true;
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
