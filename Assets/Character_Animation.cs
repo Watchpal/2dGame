@@ -21,14 +21,7 @@ public class Character_Animation : MonoBehaviour
         visuals = transform;
 
     }
-    private void StartLandingSquash()
-    {
-        targetScale = new Vector3(
-            1.2f,
-            0.8f,
-            1f
-        );
-    }
+    
     private void Update()
     {
         anim.SetFloat(
@@ -46,6 +39,16 @@ public class Character_Animation : MonoBehaviour
             movement.Velocity.y
         );
 
+        //changes walk animation speed depending on velocity
+        float speedMultiplier =
+    Mathf.Clamp(
+        Mathf.Abs(movement.Velocity.x) / movement.moveSpeed,
+        0f,
+        3f
+    );
+
+        anim.SetFloat("walkAnimationSpeed", speedMultiplier);
+
         //flips in the correct direction
         if (movement.MoveInputX > 0.01f)
         {
@@ -57,21 +60,6 @@ public class Character_Animation : MonoBehaviour
         }
         
 
-        //below is dynamic squash and stretch
-        if (!wasGrounded && movement.IsGrounded)
-        {
-            StartLandingSquash();
-        }
-
-        wasGrounded = movement.IsGrounded;
-
-
-        visuals.localScale = Vector3.Lerp(
-        visuals.localScale,
-        targetScale,
-        20f * Time.deltaTime
-    );
-
-        targetScale = Vector3.one;
+        
     }
 }
