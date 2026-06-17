@@ -3,6 +3,10 @@ using UnityEngine.InputSystem;
 
 public class CharacterMovement : MonoBehaviour
 {
+    [SerializeField] private Transform carryPoint;
+
+    private dandelion carriedDandelion;
+
     [Header("Movement")]
     public float moveSpeed = 5f;
     public float jumpForce = 8f;
@@ -25,6 +29,7 @@ public class CharacterMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isGrounded;
+
 
     private void Awake()
     {
@@ -101,6 +106,7 @@ public class CharacterMovement : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext context)
     {
+        Debug.Log("Jump");
         if (context.started)
         {
             jumpBufferTimeCounter = jumpBufferTime;
@@ -116,7 +122,53 @@ public class CharacterMovement : MonoBehaviour
             );
         }
     }
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        Debug.Log("Interact");
+        if (!context.started)
+            return;
+        Debug.Log("Interact pressed");
+        if (carriedDandelion == null)
+            TryPickup();
+        else
+            DropDandelion();
+    }
 
+    private void TryPickup()
+    {
+        Debug.Log("TryPickup called");
+
+        if (carriedDandelion != null)
+            return;
+
+        Collider2D hit =
+            Physics2D.OverlapCircle(
+                transform.position,
+                1f
+                
+            );
+
+        if (hit)
+        {
+            carriedDandelion =
+                hit.GetComponentInParent<dandelion>();
+
+            if (carriedDandelion != null)
+            {
+                carriedDandelion.PickUp(carryPoint);
+            }
+        }
+    }
+
+    private void DropDandelion()
+    {
+        if (carriedDandelion == null)
+            return;
+
+        carriedDandelion.Drop();
+        carriedDandelion = null;
+    }
+    
     private void OnDrawGizmosSelected()
     {
         if (groundCheck == null) return;
