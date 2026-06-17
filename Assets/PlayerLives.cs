@@ -28,7 +28,7 @@ public class PlayerLives : MonoBehaviour
         }
         else
         {
-            lives = 1;
+            lives = 3;
             checkpointPosition = startPosition;
             transform.position = startPosition;
         }
