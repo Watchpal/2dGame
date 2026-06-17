@@ -10,7 +10,6 @@ public class Character_Animation : MonoBehaviour
     private Transform visuals;
 
     private bool wasGrounded;
-    private Vector3 targetScale = Vector3.one;
 
     private void Awake()
     {
@@ -30,12 +29,12 @@ public class Character_Animation : MonoBehaviour
         );
 
         anim.SetBool(
-            "IsGrounded",
+            "isGrounded",
             movement.IsGrounded
         );
 
         anim.SetFloat(
-            "YVelocity",
+            "yVelocity",
             movement.Velocity.y
         );
 
@@ -59,7 +58,14 @@ public class Character_Animation : MonoBehaviour
             spriteRenderer.flipX = true;
         }
         
+        //trigger squash upon landing
+        if (!wasGrounded && movement.IsGrounded)
+        {
+            anim.SetTrigger("Land");
+        }
 
-        
+        wasGrounded = movement.IsGrounded;
+
+
     }
 }
