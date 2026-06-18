@@ -1,38 +1,100 @@
 using UnityEngine;
 
-public class dandelion : MonoBehaviour
+public class Dandelion : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    [Header("References")]
+    [SerializeField] private Rigidbody2D flowerRb;
+    [SerializeField] private Rigidbody2D stemTipRb;
+    [SerializeField] private Transform stemVisual;
 
-    public bool IsCarried { get; private set; }
-    private Transform followTarget;
+    [Header("Ground Follow")]
+    [SerializeField] private float followStrength = 20f;
+    [SerializeField] private float hoverHeight = 1.5f;
 
-    private void Awake()
+    private Transform holder;
+
+    private bool followGround;
+
+    public Rigidbody2D StemTipRb => stemTipRb;
+
+    private void Update()
     {
-        rb = GetComponent<Rigidbody2D>();
-        gameObject.layer = LayerMask.NameToLayer("GroundLayer");
+        UpdateStemVisual();
     }
 
     private void FixedUpdate()
     {
-        if (IsCarried)
-        {
-            Vector2 direction =
-            followTarget.position - transform.position;
+        if (!followGround)
+            return;
 
-            rb.AddForce(direction * 25);
-        }
+        if (holder == null)
+            return;
+
+        Vector2 target =
+            (Vector2)holder.position +
+            Vector2.up * hoverHeight;
+
+        Vector2 offset =
+            target -
+            flowerRb.position;
+
+        flowerRb.AddForce(
+            offset *
+            followStrength
+        );
     }
+
+    private void UpdateStemVisual()
+    {
+        Vector2 flowerPos =
+            flowerRb.position;
+
+        Vector2 stemTipPos =
+            stemTipRb.position;
+
+        Vector2 dir =
+            stemTipPos -
+            flowerPos;
+
+        float length =
+            dir.magnitude;
+
+        stemVisual.position =
+            (flowerPos + stemTipPos) * 0.5f;
+
+        stemVisual.rotation =
+            Quaternion.Euler(
+                0,
+                0,
+                Mathf.Atan2(
+                    dir.y,
+                    dir.x
+                ) * Mathf.Rad2Deg - 90f
+            );
+
+        Vector3 scale =
+            stemVisual.localScale;
+
+        scale.y = length;
+
+        stemVisual.localScale =
+            scale;
+    }
+
     public void PickUp(Transform carryPoint)
-    { IsCarried = true;
-      followTarget = carryPoint;
-      gameObject.layer = LayerMask.NameToLayer("CarriedDandelion");
+    {
+        holder = carryPoint;
+        followGround = true;
     }
 
     public void Drop()
     {
-        IsCarried = false;
-        followTarget = null;
-        gameObject.layer = LayerMask.NameToLayer("GroundLayer");
+        holder = null;
+        followGround = false;
+    }
+
+    public void SetGroundFollow(bool value)
+    {
+        followGround = value;
     }
 }
