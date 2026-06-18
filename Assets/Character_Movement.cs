@@ -30,6 +30,7 @@ public class CharacterMovement : MonoBehaviour
     private Vector2 moveInput;
     private bool isGrounded;
 
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -105,6 +106,7 @@ public class CharacterMovement : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext context)
     {
+        Debug.Log("Jump");
         if (context.started)
         {
             jumpBufferTimeCounter = jumpBufferTime;
@@ -120,8 +122,22 @@ public class CharacterMovement : MonoBehaviour
             );
         }
     }
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        Debug.Log("Interact");
+        if (!context.started)
+            return;
+        Debug.Log("Interact pressed");
+        if (carriedDandelion == null)
+            TryPickup();
+        else
+            DropDandelion();
+    }
+
     private void TryPickup()
     {
+        Debug.Log("TryPickup called");
+
         if (carriedDandelion != null)
             return;
 
@@ -135,9 +151,12 @@ public class CharacterMovement : MonoBehaviour
         if (hit)
         {
             carriedDandelion =
-                hit.GetComponent<dandelion>();
+                hit.GetComponentInParent<dandelion>();
 
-            carriedDandelion.PickUp(carryPoint);
+            if (carriedDandelion != null)
+            {
+                carriedDandelion.PickUp(carryPoint);
+            }
         }
     }
 
@@ -149,7 +168,7 @@ public class CharacterMovement : MonoBehaviour
         carriedDandelion.Drop();
         carriedDandelion = null;
     }
-
+    
     private void OnDrawGizmosSelected()
     {
         if (groundCheck == null) return;
