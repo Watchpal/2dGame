@@ -18,13 +18,14 @@ public class PlayerLives : MonoBehaviour
         checkpointPosition = newCheckpoint;
     }
 
-    public void die()
+    public void die(GameObject player)
     {
         lives--;
 
         if (lives > 0)
         {
             transform.position = checkpointPosition;
+            GameManager.Instance.PlayerDied(player);
         }
         else
         {

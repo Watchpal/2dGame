@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class Death : MonoBehaviour
+public class DeathZone : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<PlayerLives>().die(other.gameObject);
+            GameManager.Instance.PlayerDied(other.gameObject);
         }
     }
 }

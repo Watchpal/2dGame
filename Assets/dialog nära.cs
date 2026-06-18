@@ -16,7 +16,7 @@ public class dialognära : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("player"))
+        if (other.CompareTag("Player"))
         { 
             dialogueText.SetActive(false);
         }
