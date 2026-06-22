@@ -24,6 +24,7 @@ public class Dandelion : MonoBehaviour
     [SerializeField] private Sprite platformSprite;
 
     [SerializeField] private SpriteRenderer spriteRenderer;
+
     private enum DandelionState
     {
         Idle,
@@ -32,8 +33,12 @@ public class Dandelion : MonoBehaviour
         Platform
     }
     private DandelionState state;
-    
 
+    private void Start()
+    {
+        flowerRb.gameObject.layer =
+    LayerMask.NameToLayer("Dandelion");
+    }
     private void Update()
     {
         UpdateStemVisual();
@@ -148,6 +153,7 @@ public class Dandelion : MonoBehaviour
 
         flowerRb.linearVelocity = Vector2.zero;
         flowerRb.angularVelocity = 0f;
+        flowerRb.gameObject.layer =LayerMask.NameToLayer("CarriedDandelion");
     }
 
     public void Drop(Vector2 velocity)
@@ -157,6 +163,8 @@ public class Dandelion : MonoBehaviour
         flowerRb.linearVelocity = velocity;
         timeSinceThrown = 0f;
         hasBeenFrozen = false;
+        flowerRb.gameObject.layer =LayerMask.NameToLayer("Dandelion");
+
     }
     
     private void HandleGlideAfterThrown()
