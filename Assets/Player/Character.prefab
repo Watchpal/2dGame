@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 7372798216028802132}
   - component: {fileID: 8913330407695537231}
   - component: {fileID: 133629186830673418}
-  m_Layer: 0
+  - component: {fileID: 537697195393548922}
+  m_Layer: 6
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +125,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &7698699457209009507
 CapsuleCollider2D:
@@ -175,20 +176,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d85bf92294c8243945b7e014d32b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  carryPoint: {fileID: 5501359613602980697}
   moveSpeed: 8
   jumpForce: 15
   fallGravity: 3.5
   jumpGravity: 2.75
   acceleration: 20
-  deceleration: 25
   coyoteTime: 0.1
   jumpBufferTime: 0.1
   groundCheck: {fileID: 5310461645559560561}
   groundCheckRadius: 0.3
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 264
+  carryPoint: {fileID: 5501359613602980697}
+  dandelionLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!114 &8913330407695537231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,6 +296,26 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!232 &537697195393548922
+DistanceJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4531585031999787022}
+  m_Enabled: 0
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 0
+  m_Distance: 0.6
+  m_MaxDistanceOnly: 0
 --- !u!1 &8025788836192288066
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5501359613602980697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CarryPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5310461645559560561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,7 +390,7 @@ GameObject:
   - component: {fileID: 7661703704582300083}
   - component: {fileID: 7137779032558441526}
   - component: {fileID: 2049352756941396221}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}

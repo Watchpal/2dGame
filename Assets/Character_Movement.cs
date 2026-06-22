@@ -269,8 +269,6 @@ public class CharacterMovement : MonoBehaviour
     private Dandelion carriedDandelion;
 
     private Rigidbody2D rb;
-    private DistanceJoint2D swingJoint;
-
     private Vector2 moveInput;
 
     private bool isGrounded;
@@ -282,7 +280,6 @@ public class CharacterMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        swingJoint = GetComponent<DistanceJoint2D>();
     }
 
     private void Update()
@@ -290,7 +287,6 @@ public class CharacterMovement : MonoBehaviour
         UpdateGroundedState();
         UpdateJumpTimers();
         HandleBufferedJump();
-        UpdateSwingState();
     }
 
     private void FixedUpdate()
@@ -353,6 +349,11 @@ public class CharacterMovement : MonoBehaviour
             rb.gravityScale = fallGravity;
         else
             rb.gravityScale = jumpGravity;
+
+        if (carriedDandelion != null&&rb.linearVelocity.y<0)
+        {
+            rb.gravityScale = fallGravity / 10;
+        }
     }
 
     private void HandleMovement()
@@ -372,38 +373,6 @@ public class CharacterMovement : MonoBehaviour
                 newSpeed,
                 rb.linearVelocity.y
             );
-    }
-
-    private void UpdateSwingState()
-    {
-        if (carriedDandelion == null)
-            return;
-
-        bool shouldSwing =
-            !isGrounded &&
-            rb.linearVelocity.y < 0f;
-
-        if (shouldSwing)
-        {
-            if (!swingJoint.enabled)
-            {
-                swingJoint.connectedBody =
-                    carriedDandelion.StemTipRb;
-
-                swingJoint.distance = 0.6f;
-                swingJoint.enabled = true;
-
-                carriedDandelion.SetGroundFollow(false);
-            }
-        }
-        else
-        {
-            if (swingJoint.enabled)
-            {
-                swingJoint.enabled = false;
-                carriedDandelion.SetGroundFollow(true);
-            }
-        }
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -468,11 +437,30 @@ public class CharacterMovement : MonoBehaviour
         if (carriedDandelion == null)
             return;
 
-        swingJoint.enabled = false;
+        Vector2 throwDirection =
+        moveInput.normalized;
 
-        carriedDandelion.Drop();
+        Vector2 throwVelocity =
+            rb.linearVelocity +
+            throwDirection * 3f;
+
+        carriedDandelion.Drop(throwVelocity);
         carriedDandelion = null;
     }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (groundCheck == null)
+            return;
+
+        Gizmos.color = Color.red;
+
+        Gizmos.DrawWireSphere(
+            groundCheck.position,
+            groundCheckRadius
+        );
+    }
+
     public Vector2 Velocity =>
         rb.linearVelocity;
 
