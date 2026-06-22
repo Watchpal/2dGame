@@ -25,7 +25,7 @@ public class PlayerLives : MonoBehaviour
         if (lives > 0)
         {
             transform.position = checkpointPosition;
-            GameManager.Instance.PlayerDied(player);
+            //GameManager.Instance.PlayerDied(player);
         }
         else
         {
