@@ -21,7 +21,12 @@ public class Parallax : MonoBehaviour
          (Camera.main.transform.position - cameraStartPosition)
          * parallaxFactor;
 
-        transform.position = startPosition + offset;
+        transform.position = new Vector3(
+     startPosition.x +
+     (cam.position.x - cameraStartPosition.x) * parallaxFactor,
+     startPosition.y,
+     startPosition.z
+ );
 
     }
 }
