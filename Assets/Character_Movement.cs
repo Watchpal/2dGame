@@ -279,6 +279,19 @@ public class CharacterMovement : MonoBehaviour
     private float coyoteTimeCounter;
     private float jumpBufferTimeCounter;
 
+    [Header("Wall Check")]
+    [SerializeField] private Transform wallCheckLeft;
+    [SerializeField] private Transform wallCheckRight;
+    [SerializeField] private float wallCheckRadius = 0.05f;
+    [SerializeField] private LayerMask wallLayer;
+
+    private bool touchingLeftWall;
+    private bool touchingRightWall;
+
+    [Header("Wall Jump")]
+    [SerializeField] private float wallJumpX = 8f;
+    [SerializeField] private float wallJumpY = 10f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -287,6 +300,7 @@ public class CharacterMovement : MonoBehaviour
     private void Update()
     {
         UpdateGroundedState();
+        UpdateWallSlideState();
         UpdateJumpTimers();
         HandleBufferedJump();
     }
@@ -318,6 +332,22 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
+    private void UpdateWallSlideState()
+    {
+        touchingLeftWall =
+    Physics2D.OverlapCircle(
+        wallCheckLeft.position,
+        wallCheckRadius,
+        wallLayer
+    );
+
+        touchingRightWall =
+            Physics2D.OverlapCircle(
+                wallCheckRight.position,
+                wallCheckRadius,
+                wallLayer
+            );
+    }
     private void UpdateJumpTimers()
     {
         jumpBufferTimeCounter -= Time.deltaTime;
@@ -388,6 +418,30 @@ public class CharacterMovement : MonoBehaviour
     {
         if (context.started)
         {
+            if (!isGrounded)
+            {
+                if (touchingLeftWall)
+                {
+                    rb.linearVelocity =
+                        new Vector2(
+                            wallJumpX,
+                            wallJumpY
+                        );
+
+                    return;
+                }
+
+                if (touchingRightWall)
+                {
+                    rb.linearVelocity =
+                        new Vector2(
+                            -wallJumpX,
+                            wallJumpY
+                        );
+
+                    return;
+                }
+            }
             jumpBufferTimeCounter =
                 jumpBufferTime;
         }
