@@ -2605,8 +2605,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08785e8e92a827d48a4b64d4c93dd2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  parallaxFactor: 0.5
 --- !u!1 &179581082
 GameObject:
   m_ObjectHideFlags: 0
@@ -6889,7 +6887,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4ad9d088055ff1418d6dc2f05f9a236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hearts
-  hearts: []
 --- !u!212 &497210233
 SpriteRenderer:
   serializedVersion: 2
@@ -7519,8 +7516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08785e8e92a827d48a4b64d4c93dd2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  parallaxFactor: 0.5
 --- !u!212 &539175176
 SpriteRenderer:
   serializedVersion: 2
@@ -10998,8 +10993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08785e8e92a827d48a4b64d4c93dd2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  parallaxFactor: 0.5
 --- !u!1 &779605043
 GameObject:
   m_ObjectHideFlags: 0
@@ -12129,8 +12122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08785e8e92a827d48a4b64d4c93dd2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  parallaxFactor: 0.5
 --- !u!212 &875718379
 SpriteRenderer:
   serializedVersion: 2
@@ -13645,8 +13636,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08785e8e92a827d48a4b64d4c93dd2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  parallaxFactor: 0.5
 --- !u!212 &1026280286
 SpriteRenderer:
   serializedVersion: 2
@@ -14345,7 +14334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::enemyPatrol
   pointA: {fileID: 1432669441}
   pointB: {fileID: 442398213}
-  speed: 4
+  speed: 3
 --- !u!114 &1064203713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15420,7 +15409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09ee14242ee34de41b274c8399a52705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShowSpriteOnTrigger
-  spriteToShow: {fileID: 0}
 --- !u!61 &1164866419
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15497,8 +15485,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08785e8e92a827d48a4b64d4c93dd2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  parallaxFactor: 0.5
 --- !u!212 &1168633082
 SpriteRenderer:
   serializedVersion: 2
@@ -18674,175 +18660,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1244414338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1402214261
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1402214269}
-  - component: {fileID: 1402214268}
-  - component: {fileID: 1402214267}
-  - component: {fileID: 1402214266}
-  - component: {fileID: 1402214265}
-  - component: {fileID: 1402214264}
-  - component: {fileID: 1402214263}
-  - component: {fileID: 1402214262}
-  m_Layer: 0
-  m_Name: StartPoint (2)
-  m_TagString: Respawn
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1402214262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402214261}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e4c7d7350fd89648b96413387ec10de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: "Assembly-CSharp::d\xF6respawn"
---- !u!114 &1402214263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402214261}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ced609b906652834c8d586a981a66d28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::respawnpoint
---- !u!114 &1402214264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402214261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa1838aaca29d2242bd7b8659a91cc3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawn1
---- !u!114 &1402214265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402214261}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d134dcaa3e9c7848ae1d90b8d8d5977, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawn
---- !u!114 &1402214266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402214261}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d134dcaa3e9c7848ae1d90b8d8d5977, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawn
---- !u!114 &1402214267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402214261}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d134dcaa3e9c7848ae1d90b8d8d5977, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Checkpoints
---- !u!212 &1402214268
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402214261}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &1402214269
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402214261}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 587.3666, y: -103.8, z: 0}
-  m_LocalScale: {x: 12.334857, y: 8.6374, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1406140167
 GameObject:
   m_ObjectHideFlags: 0
@@ -19972,8 +19789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08785e8e92a827d48a4b64d4c93dd2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  parallaxFactor: 0.5
 --- !u!1 &1478784484
 GameObject:
   m_ObjectHideFlags: 0
@@ -22946,8 +22761,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08785e8e92a827d48a4b64d4c93dd2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  parallaxFactor: 0.5
 --- !u!1 &1795169507 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4531585031999787022, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
@@ -23872,8 +23685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08785e8e92a827d48a4b64d4c93dd2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  parallaxFactor: 0.5
 --- !u!1 &1922217454
 GameObject:
   m_ObjectHideFlags: 0
@@ -27544,7 +27355,6 @@ SceneRoots:
   - {fileID: 478799314}
   - {fileID: 606447525}
   - {fileID: 1287806904}
-  - {fileID: 1402214269}
   - {fileID: 945274776}
   - {fileID: 654841012}
   - {fileID: 2097139496}

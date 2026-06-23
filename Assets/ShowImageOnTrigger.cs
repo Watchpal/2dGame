@@ -15,5 +15,5 @@ public class ShowImageOnTrigger : MonoBehaviour
             imageToShow.SetActive(false);
     }
 
-    private void
+    
 }
