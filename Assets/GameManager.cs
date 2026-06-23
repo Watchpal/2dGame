@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 
     public int maxLives = 3;
     public int currentLives;
-    public Hearts hearts;
+    public GameObject[] hearts;
 
     public Vector3 startPosition;
     public Vector3 currentCheckpoint;
@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         currentLives = maxLives;
-        hearts.UpdateHearts(currentLives);
+        //hearts.UpdateHearts(currentLives);
         currentCheckpoint = startPosition;
     }
 
@@ -38,7 +38,10 @@ public class GameManager : MonoBehaviour
 
     public void PlayerDied(GameObject player)
     {
-        currentLives--;hearts.UpdateHearts(currentLives);
+        currentLives--;
+        //hearts.UpdateHearts(currentLives);
+        hearts[currentLives].gameObject.SetActive(false);
+        Debug.Log("player dies");
 
         if (currentLives > 0)
         {
@@ -46,6 +49,9 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            hearts[2].gameObject.SetActive(true);
+            hearts[1].gameObject.SetActive(true);
+            hearts[0].gameObject.SetActive(true);
             currentLives = maxLives;
             currentCheckpoint = startPosition;
             player.transform.position = startPosition;
