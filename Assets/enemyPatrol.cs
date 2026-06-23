@@ -1,3 +1,4 @@
+using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class enemyPatrol : MonoBehaviour
@@ -34,12 +35,28 @@ public class enemyPatrol : MonoBehaviour
 
         if(Vector3.Distance(transform.position, currentPoint.position) < 0.5 && currentPoint == pointB.transform)
         {
+            flip();
             currentPoint = pointA.transform;
         }
 
         if(Vector2.Distance(transform.position, currentPoint.position) < 0.5 && currentPoint == pointA.transform)
         {
-                currentPoint = pointB.transform;
+            flip();
+            currentPoint = pointB.transform;
         }
     }
-}
+
+    private void flip()
+    {
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1;
+        transform.localScale = localScale;
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
+        Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
+        Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
+    }
+  }
+
