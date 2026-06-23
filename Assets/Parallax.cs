@@ -5,19 +5,21 @@ public class Parallax : MonoBehaviour
     [SerializeField] private Transform cam;
     [SerializeField] private float parallaxFactor = 0.5f;
 
-    private float previousCamX;
+    private Vector3 startPosition;
 
         void Start()
         {
-         previousCamX = cam.position.x;
+         
+        startPosition=transform.position;
         }
 
     void LateUpdate()
     {
-       float deltaX = cam.position.x - previousCamX;
-       transform.position += Vector3.right * (deltaX * parallaxFactor);
+       float x =startPosition.x+cam.position.x*parallaxFactor;
+       float y = startPosition.y + cam.position.y * parallaxFactor;
+       transform.position = new Vector3(x, y, startPosition.z);
 
-        previousCamX = cam.position.x;
+
     }
 }
  
