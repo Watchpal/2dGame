@@ -241,17 +241,19 @@ public class CharacterMovement : MonoBehaviour
 }
 */
 
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class CharacterMovement : MonoBehaviour
 {
     [Header("Movement")]
-    public float moveSpeed = 5f;
-    public float jumpForce = 8f;
-    public float fallGravity = 4f;
-    public float jumpGravity = 3f;
-    public float acceleration = 15f;
+    public float moveSpeed = 8f;
+    public float jumpForce = 15f;
+    public float fallGravity = 3.5f;
+    public float jumpGravity = 2.75f;
+    public float acceleration = 20f;
+    public float maxFallSpeed = 7f;
 
     [Header("Jump Assist")]
     public float coyoteTime = 0.1f;
@@ -354,6 +356,7 @@ public class CharacterMovement : MonoBehaviour
         {
             rb.gravityScale = fallGravity / 10;
         }
+        Mathf.Clamp(rb.linearVelocityY, -maxFallSpeed, maxFallSpeed);
     }
 
     private void HandleMovement()
@@ -442,7 +445,8 @@ public class CharacterMovement : MonoBehaviour
 
         Vector2 throwVelocity =
             rb.linearVelocity +
-            throwDirection * 3f;
+            throwDirection * 6f;
+        throwVelocity.y = throwVelocity.y / 2;
 
         carriedDandelion.Drop(throwVelocity);
         carriedDandelion = null;
