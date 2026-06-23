@@ -724,7 +724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae3d4e537a589548a62da262c164ed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VolumeSettings
-  volumeSlider: {fileID: 0}
 --- !u!212 &454824950
 SpriteRenderer:
   serializedVersion: 2
@@ -947,6 +946,7 @@ GameObject:
   - component: {fileID: 568568940}
   - component: {fileID: 568568939}
   - component: {fileID: 568568938}
+  - component: {fileID: 568568941}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -966,8 +966,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 435d2ef967d17ad4bb9bf33c2be4555f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
-  mainMenuPanel: {fileID: 0}
-  optionsPanel: {fileID: 0}
 --- !u!212 &568568939
 SpriteRenderer:
   serializedVersion: 2
@@ -1042,6 +1040,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &568568941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568568937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5173ec3f04c1fa34592ac51d90549f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenu1
+  mainMenuPanel: {fileID: 1098973048}
+  optionsPanel: {fileID: 802077630}
 --- !u!1 &568805445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,6 +1653,7 @@ GameObject:
   - component: {fileID: 824094559}
   - component: {fileID: 824094558}
   - component: {fileID: 824094560}
+  - component: {fileID: 824094561}
   m_Layer: 0
   m_Name: SettingsManager
   m_TagString: Untagged
@@ -1732,6 +1745,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82357c4b30d6217449244f42dbf76816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SettingsManager
+--- !u!114 &824094561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824094557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0ace7da0501d84caa88645746d14db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SettingsManager
   audioMixer: {fileID: 0}
@@ -1907,8 +1932,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0023804, y: -381.9752}
-  m_SizeDelta: {x: 1920, y: 1843.9124}
+  m_AnchoredPosition: {x: 198, y: -381.9752}
+  m_SizeDelta: {x: 1524, y: 1843.9124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909358137
 MonoBehaviour:
@@ -2053,7 +2078,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae3d4e537a589548a62da262c164ed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VolumeSettings
-  volumeSlider: {fileID: 0}
 --- !u!212 &1106375618
 SpriteRenderer:
   serializedVersion: 2
@@ -2852,8 +2876,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a43a98702f8c724da71072a78c6fa25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu1
-  mainMenuPanel: {fileID: 0}
-  optionsPanel: {fileID: 0}
 --- !u!212 &1438955254
 SpriteRenderer:
   serializedVersion: 2
@@ -3011,8 +3033,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 568568938}
-        m_TargetAssemblyTypeName: MainMenuUI, Assembly-CSharp
+      - m_Target: {fileID: 568568941}
+        m_TargetAssemblyTypeName: MainMenu1, Assembly-CSharp
         m_MethodName: OpenOptions
         m_Mode: 1
         m_Arguments:
@@ -4323,9 +4345,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 568568938}
-        m_TargetAssemblyTypeName: MainMenuUI, Assembly-CSharp
-        m_MethodName: CloseOptions
+      - m_Target: {fileID: 568568941}
+        m_TargetAssemblyTypeName: MainMenu1, Assembly-CSharp
+        m_MethodName: BackToMain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
