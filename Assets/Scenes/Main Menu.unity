@@ -724,7 +724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae3d4e537a589548a62da262c164ed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VolumeSettings
-  volumeSlider: {fileID: 1475827145}
 --- !u!212 &454824950
 SpriteRenderer:
   serializedVersion: 2
@@ -966,8 +965,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 435d2ef967d17ad4bb9bf33c2be4555f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
-  mainMenuPanel: {fileID: 1098973048}
-  optionsPanel: {fileID: 802077630}
 --- !u!212 &568568939
 SpriteRenderer:
   serializedVersion: 2
@@ -1721,8 +1718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82357c4b30d6217449244f42dbf76816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SettingsManager
-  audioMixer: {fileID: 0}
-  volume: 0
 --- !u!1 &840123086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,7 +1889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -63, y: 907}
+  m_AnchoredPosition: {x: -24, y: 1313}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098973050
@@ -1965,7 +1960,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae3d4e537a589548a62da262c164ed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VolumeSettings
-  volumeSlider: {fileID: 1892922208}
 --- !u!212 &1106375618
 SpriteRenderer:
   serializedVersion: 2
@@ -2738,8 +2732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a43a98702f8c724da71072a78c6fa25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu1
-  mainMenuPanel: {fileID: 0}
-  optionsPanel: {fileID: 0}
 --- !u!212 &1438955254
 SpriteRenderer:
   serializedVersion: 2

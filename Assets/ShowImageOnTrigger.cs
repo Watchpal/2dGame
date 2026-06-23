@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class ShowImageOnTrigger : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public GameObject imageToShow;
+    public float displayTime = 3f;
+
+    private SpriteRenderer SpriteRenderer;
+
+        void Start() 
     {
-        
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (imageToShow != null)
+            imageToShow.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private void
 }
