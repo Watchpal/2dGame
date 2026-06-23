@@ -154,6 +154,8 @@ public class Dandelion : MonoBehaviour
         flowerRb.linearVelocity = Vector2.zero;
         flowerRb.angularVelocity = 0f;
         flowerRb.gameObject.layer =LayerMask.NameToLayer("CarriedDandelion");
+        SetState(DandelionState.Idle);
+        timeSinceFrozen = 999;
     }
 
     public void Drop(Vector2 velocity)
