@@ -14,6 +14,9 @@ public class ShowImageOnTrigger : MonoBehaviour
         if (imageToShow != null)
             imageToShow.SetActive(false);
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        
+    }
 
-    
 }
