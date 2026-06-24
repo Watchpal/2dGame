@@ -78,8 +78,7 @@ public class CharacterMovement : MonoBehaviour
                 groundLayer
             );
 
-        if (isGrounded &&
-            Mathf.Abs(rb.linearVelocity.y) < 0.01f)
+        if (isGrounded)
         {
             coyoteTimeCounter = coyoteTime;
             hasJumped = false;
