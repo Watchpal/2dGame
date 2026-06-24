@@ -9,7 +9,7 @@ public class FallingPlatform : MonoBehaviour
     private Vector3 startPos;
     private bool triggered;
 
-    private void awake()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         startPos = transform.position;
@@ -33,10 +33,28 @@ public class FallingPlatform : MonoBehaviour
 
         yield return new WaitForSeconds(respawnTime);
 
+        //Freeze the platform
         rb.linearVelocity = Vector2.zero;
         rb.angularVelocity = 0f;
-        transform.position = startPos;
         rb.bodyType = RigidbodyType2D.Kinematic;
+
+        Vector3 currentPos = transform.position;
+        float duration = 1f; //Time to move back
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            transform.position = Vector3.Lerp(
+                currentPos,
+                startPos,
+                elapsed / duration
+               );
+
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = startPos;
         triggered = false;
     }
 }

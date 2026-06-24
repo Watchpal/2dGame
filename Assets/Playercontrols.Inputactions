@@ -82,7 +82,7 @@
                 {
                     "name": "down",
                     "id": "3d13b677-4657-4a9e-854b-331869075e1f",
-                    "path": "",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -137,7 +137,7 @@
                 {
                     "name": "down",
                     "id": "2c239ee9-3f08-4ed3-ac78-c3a3d9097317",
-                    "path": "",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
