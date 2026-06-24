@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 0b7670a9fea0d5644a8955b1e6032d54
+guid: 8abd4a8ae756b304b9c14aeb305d0f0a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2572236292851511218
-    second: Trees_0
-  - first:
-      213: 6224024930817484846
-    second: Trees_1
-  - first:
-      213: -8911251428918342384
-    second: Trees_2
+      213: 2463709952757136714
+    second: theTITLETITLEREALTITLEbakcgroundIPROMISEONGODDUDE_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,67 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trees_0
+      name: theTITLETITLEREALTITLEbakcgroundIPROMISEONGODDUDE_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 107
-        width: 542
-        height: 941
+        x: 146
+        y: 111
+        width: 2027
+        height: 1919
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bf28c1b74b62b320800000000000000
-      internalID: 2572236292851511218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trees_1
-      rect:
-        serializedVersion: 2
-        x: 644
-        y: 122
-        width: 320
-        height: 655
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e282d82c2bd206650800000000000000
-      internalID: 6224024930817484846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Trees_2
-      rect:
-        serializedVersion: 2
-        x: 962
-        y: 136
-        width: 316
-        height: 390
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01d412b0a00e45480800000000000000
-      internalID: -8911251428918342384
+      spriteID: a4dfea3162bd03220800000000000000
+      internalID: 2463709952757136714
       vertices: []
       indices: 
       edges: []
@@ -175,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4d1e123564b4de04f8d8b97e67a50f42
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Trees_0: 2572236292851511218
-      Trees_1: 6224024930817484846
-      Trees_2: -8911251428918342384
+      theTITLETITLEREALTITLEbakcgroundIPROMISEONGODDUDE_0: 2463709952757136714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
