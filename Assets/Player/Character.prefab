@@ -262,9 +262,10 @@ MonoBehaviour:
   wallCheckRadius: 0.05
   wallLayer:
     serializedVersion: 2
-    m_Bits: 8
-  wallJumpX: 8
-  wallJumpY: 10
+    m_Bits: 264
+  hasWallJump: 1
+  wallJumpX: 9.6
+  wallJumpY: 7.5
 --- !u!114 &8913330407695537231
 MonoBehaviour:
   m_ObjectHideFlags: 0
