@@ -7,12 +7,14 @@ public class FallingPlatform : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector3 startPos;
+    private Quaternion startRotation;
     private bool triggered;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         startPos = transform.position;
+        startRotation = transform.rotation;
         rb.bodyType = RigidbodyType2D.Kinematic;
     }
 

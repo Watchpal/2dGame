@@ -8,6 +8,7 @@ TagManager:
   - bur3
   - start
   - checkpoint
+  - PlayerOnPlatform
   layers:
   - Default
   - TransparentFX
