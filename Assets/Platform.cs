@@ -8,6 +8,7 @@ public class Platform : MonoBehaviour
     private Animator anim;
     private Transform currentPoint;
     public float speed;
+    private bool PlayerOnPlatform = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,26 +21,52 @@ public class Platform : MonoBehaviour
     // Updat is called once per frame
     void Update()
     {
-        Vector2 point = currentPoint.position - transform.position;
-        if (currentPoint == pointB.transform)
+        if (!PlayerOnPlatform)
         {
-            rb.linearVelocity = new Vector2(speed, 0);
+            rb.linearVelocity = Vector2.zero;
+            return;
         }
-        else
+        
+        Vector2 dir = (currentPoint.position - transform.position).normalized;
+        rb.linearVelocity = dir * speed;
+
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f)
         {
-            rb.linearVelocity = new Vector2(-speed, 0);
+            if (currentPoint == pointA.transform)
+                currentPoint = pointB.transform;
+            else
+                currentPoint = pointA.transform;
+    }
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f
+           && currentPoint == pointA.transform)
+        {
+            currentPoint = pointB.transform;
         }
-
-        ;
-
-        if (Vector3.Distance(transform.position, currentPoint.position) < 0.5 && currentPoint == pointB.transform)
+        
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5 && currentPoint == pointB.transform)
         {
+            flip();
             currentPoint = pointA.transform;
         }
 
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5 && currentPoint == pointA.transform)
         {
+            flip();
             currentPoint = pointB.transform;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerOnPlatform = true;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerOnPlatform = false;
         }
     }
     private void flip()
@@ -55,6 +82,5 @@ public class Platform : MonoBehaviour
         Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
     }
 }
-
 
 
