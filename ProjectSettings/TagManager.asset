@@ -9,6 +9,7 @@ TagManager:
   - start
   - checkpoint
   - PlayerOnPlatform
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX
