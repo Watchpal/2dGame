@@ -334,7 +334,7 @@ public class CharacterMovement : MonoBehaviour
 
     private void UpdateWallSlideState()
     {
-        touchingLeftWall =
+        touchingLeftWall =              
     Physics2D.OverlapCircle(
         wallCheckLeft.position,
         wallCheckRadius,
