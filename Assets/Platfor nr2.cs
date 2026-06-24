@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Platform : MonoBehaviour
+public class Platfornr2 : MonoBehaviour
 {
     public GameObject pointA;
     public GameObject pointB;
@@ -26,7 +26,7 @@ public class Platform : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             return;
         }
-        
+
         Vector2 dir = (currentPoint.position - transform.position).normalized;
         rb.linearVelocity = dir * speed;
 
@@ -36,13 +36,13 @@ public class Platform : MonoBehaviour
                 currentPoint = pointB.transform;
             else
                 currentPoint = pointA.transform;
-    }
+        }
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f
            && currentPoint == pointA.transform)
         {
             currentPoint = pointB.transform;
         }
-        
+
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5 && currentPoint == pointB.transform)
         {
             flip();
@@ -62,13 +62,13 @@ public class Platform : MonoBehaviour
             PlayerOnPlatform = true;
         }
     }
-    //private void OnCollisionExit2D(Collision2D collision)
-   // {
-      //  if (collision.gameObject.CompareTag("Player"))
-      //  {
-      //      PlayerOnPlatform = false;
-     //   }
-  //  }
+    private void OnCollisionExit2D(Collision2D collision)
+     {
+      if (collision.gameObject.CompareTag("Player"))
+      {
+          PlayerOnPlatform = false;
+      }
+      }
     private void flip()
     {
         Vector3 localScale = transform.localScale;
