@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &845241818007134853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2394887651270001445}
+  m_Layer: 6
+  m_Name: WallCheckLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2394887651270001445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845241818007134853}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4052606435902434222}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1061374839304000338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4427650218368627402}
+  m_Layer: 6
+  m_Name: WallCheckRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4427650218368627402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061374839304000338}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.75, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4052606435902434222}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4531585031999787022
 GameObject:
   m_ObjectHideFlags: 0
@@ -37,6 +99,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5310461645559560561}
+  - {fileID: 2394887651270001445}
+  - {fileID: 4427650218368627402}
   - {fileID: 2057953035474833904}
   - {fileID: 5501359613602980697}
   m_Father: {fileID: 0}
@@ -181,6 +245,7 @@ MonoBehaviour:
   fallGravity: 3.5
   jumpGravity: 2.75
   acceleration: 20
+  maxFallSpeed: 7
   coyoteTime: 0.1
   jumpBufferTime: 0.1
   groundCheck: {fileID: 5310461645559560561}
@@ -192,6 +257,14 @@ MonoBehaviour:
   dandelionLayer:
     serializedVersion: 2
     m_Bits: 256
+  wallCheckLeft: {fileID: 2394887651270001445}
+  wallCheckRight: {fileID: 4427650218368627402}
+  wallCheckRadius: 0.05
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  wallJumpX: 8
+  wallJumpY: 10
 --- !u!114 &8913330407695537231
 MonoBehaviour:
   m_ObjectHideFlags: 0
