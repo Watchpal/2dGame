@@ -43,11 +43,9 @@ public class GameManager : MonoBehaviour
         hearts[currentLives].gameObject.SetActive(false);
         Debug.Log("player dies");
 
-        if (currentLives > 0)
-        {
-            player.transform.position = currentCheckpoint;
-        }
-        else
+        
+        player.transform.position = currentCheckpoint;
+        /*else
         {
             hearts[2].gameObject.SetActive(true);
             hearts[1].gameObject.SetActive(true);
@@ -56,6 +54,6 @@ public class GameManager : MonoBehaviour
             currentCheckpoint = startPosition;
             player.transform.position = startPosition;
         
-        }
+        }*/
     }
 }
