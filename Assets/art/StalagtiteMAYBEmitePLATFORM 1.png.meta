@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: f105df4b5063cc641b7bca8212cf0e8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3879729713303395797
+    second: StalagtiteMAYBEmitePLATFORM 1_0
+  - first:
+      213: -8490818307878629269
+    second: StalagtiteMAYBEmitePLATFORM 1_1
+  - first:
+      213: 996244641913256113
+    second: StalagtiteMAYBEmitePLATFORM 1_2
+  - first:
+      213: -6545260261292124669
+    second: StalagtiteMAYBEmitePLATFORM 1_3
+  - first:
+      213: 15180827158676959
+    second: StalagtiteMAYBEmitePLATFORM 1_4
+  - first:
+      213: -3905116041074421955
+    second: StalagtiteMAYBEmitePLATFORM 1_5
+  - first:
+      213: 3280176029776695131
+    second: StalagtiteMAYBEmitePLATFORM 1_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StalagtiteMAYBEmitePLATFORM 1_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1996
+        width: 773
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22e506a16e682ac0800000000000000
+      internalID: -3879729713303395797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StalagtiteMAYBEmitePLATFORM 1_1
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2712
+        width: 583
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60d28a3cbd8a2a80800000000000000
+      internalID: -8490818307878629269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StalagtiteMAYBEmitePLATFORM 1_2
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1724
+        width: 99
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b830a6393f53dd00800000000000000
+      internalID: 996244641913256113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StalagtiteMAYBEmitePLATFORM 1_3
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 1774
+        width: 529
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306d33b78709a25a0800000000000000
+      internalID: -6545260261292124669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StalagtiteMAYBEmitePLATFORM 1_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 103
+        width: 525
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd58032c1eee53000800000000000000
+      internalID: 15180827158676959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StalagtiteMAYBEmitePLATFORM 1_5
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 124
+        width: 773
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f441d96ad3ec9c0800000000000000
+      internalID: -3905116041074421955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StalagtiteMAYBEmitePLATFORM 1_6
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 587
+        width: 525
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f479f48b6858d20800000000000000
+      internalID: 3280176029776695131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StalagtiteMAYBEmitePLATFORM 1_0: -3879729713303395797
+      StalagtiteMAYBEmitePLATFORM 1_1: -8490818307878629269
+      StalagtiteMAYBEmitePLATFORM 1_2: 996244641913256113
+      StalagtiteMAYBEmitePLATFORM 1_3: -6545260261292124669
+      StalagtiteMAYBEmitePLATFORM 1_4: 15180827158676959
+      StalagtiteMAYBEmitePLATFORM 1_5: -3905116041074421955
+      StalagtiteMAYBEmitePLATFORM 1_6: 3280176029776695131
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
