@@ -3,8 +3,7 @@ using UnityEngine;
 public class Parallax : MonoBehaviour
 {
     [SerializeField] private Transform cam;
-    [SerializeField] private float parallaxFactor = 0.5f;
-
+    [SerializeField] private float parallaxFactor;
     private Vector3 startPosition;
     private Vector3 cameraStartPosition;
 

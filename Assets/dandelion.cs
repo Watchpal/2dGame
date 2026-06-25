@@ -115,8 +115,9 @@ public class Dandelion : MonoBehaviour
 
         scale.y = length;
 
-        //stemVisual.localScale = scale;
+        stemVisual.localScale = scale;
     }
+    
     private void UpdateVisualState()
     {
         switch (state)
@@ -138,6 +139,7 @@ public class Dandelion : MonoBehaviour
                 break;
         }
     }
+    
     private void SetState(DandelionState newState)
     {
         if (state == newState)

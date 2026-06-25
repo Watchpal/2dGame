@@ -310,7 +310,7 @@ Transform:
   m_GameObject: {fileID: 242116739}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.75099, y: 2.3298, z: 0}
+  m_LocalPosition: {x: -5.2, y: 0.92, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -677,7 +677,6 @@ GameObject:
   m_Component:
   - component: {fileID: 410610285}
   - component: {fileID: 410610284}
-  - component: {fileID: 410610283}
   m_Layer: 0
   m_Name: bg1_0
   m_TagString: Untagged
@@ -685,20 +684,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &410610283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410610282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85b9990e20c63a143b94f8bb71db5e7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 2031815720}
-  parallaxFactor: 0.5
 --- !u!212 &410610284
 SpriteRenderer:
   serializedVersion: 2
@@ -1115,7 +1100,6 @@ GameObject:
   m_Component:
   - component: {fileID: 899591758}
   - component: {fileID: 899591760}
-  - component: {fileID: 899591759}
   m_Layer: 0
   m_Name: bg1_0 (1)
   m_TagString: Untagged
@@ -1138,20 +1122,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 242116740}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &899591759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899591757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85b9990e20c63a143b94f8bb71db5e7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 2031815720}
-  parallaxFactor: 0.5
 --- !u!212 &899591760
 SpriteRenderer:
   serializedVersion: 2
@@ -3024,7 +2994,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1854917581}
   - component: {fileID: 1854917580}
-  - component: {fileID: 1854917579}
   m_Layer: 0
   m_Name: bg1_0
   m_TagString: Untagged
@@ -3032,20 +3001,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1854917579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854917578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85b9990e20c63a143b94f8bb71db5e7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 2031815720}
-  parallaxFactor: 0.5
 --- !u!212 &1854917580
 SpriteRenderer:
   serializedVersion: 2
@@ -3513,9 +3468,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 18
+  field of view: 90
+  orthographic: 0
+  orthographic size: 20
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3540,7 +3495,7 @@ Transform:
   m_GameObject: {fileID: 2031815717}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.869999, y: 1.0899998, z: -10}
+  m_LocalPosition: {x: -1.8699994, y: 0.9499998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3797,6 +3752,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5040472969967841367, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
+      propertyPath: Lens.FieldOfView
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040472969967841367, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: Target.TrackingTarget
       value: 
       objectReference: {fileID: 1486485547}
@@ -3810,11 +3769,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8248805002289997555, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.869999
+      value: -1.8699994
       objectReference: {fileID: 0}
     - target: {fileID: 8248805002289997555, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0899998
+      value: 0.9499998
       objectReference: {fileID: 0}
     - target: {fileID: 8248805002289997555, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: m_LocalPosition.z
