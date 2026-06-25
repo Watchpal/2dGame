@@ -6,6 +6,9 @@ public class PlayerKey : MonoBehaviour
     public GameObject wall;
 
     private bool hasKey = false;
+    private GameObject keyObject;
+
+    public Vector3 keyOffset = new Vector3(0.7f, 0.5f, 0);
 
     private void OnTriggerEnter2D(Collider2D other)
     {
