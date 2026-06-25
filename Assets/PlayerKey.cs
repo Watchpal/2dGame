@@ -6,7 +6,7 @@ public class PlayerKey : MonoBehaviour
     public GameObject wall;
 
     private bool hasKey = false;
-    private GameObject keyObject;
+    private GameObject KeyObject;
 
     public Vector3 keyOffset = new Vector3(0.7f, 0.5f, 0);
 
@@ -15,7 +15,6 @@ public class PlayerKey : MonoBehaviour
         if (other.CompareTag("Key"))
         {
             hasKey = true;
-            Destroy(other.gameObject);
             Debug.Log("Key collected!");
         }
 }
@@ -23,9 +22,12 @@ public class PlayerKey : MonoBehaviour
     private void Update()
     {
         if (hasKey && Keyboard.current.eKey.wasPressedThisFrame)
-
         {
             wall.SetActive(false);
+
+            Destroy(KeyObject);
+
+            hasKey = false;
         }
     }
 }
