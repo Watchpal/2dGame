@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: f105df4b5063cc641b7bca8212cf0e8e
+guid: 5943824ca0f916748b6ae8f20ea59e1f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3879729713303395797
-    second: StalagtiteMAYBEmitePLATFORM 1_0
+      213: -4040733395770150372
+    second: Trees 1_0
   - first:
-      213: -8490818307878629269
-    second: StalagtiteMAYBEmitePLATFORM 1_1
+      213: 6587332987951311010
+    second: Trees 1_1
   - first:
-      213: 996244641913256113
-    second: StalagtiteMAYBEmitePLATFORM 1_2
+      213: -4750116405470671272
+    second: Trees 1_2
   - first:
-      213: -6545260261292124669
-    second: StalagtiteMAYBEmitePLATFORM 1_3
-  - first:
-      213: 15180827158676959
-    second: StalagtiteMAYBEmitePLATFORM 1_4
-  - first:
-      213: -3905116041074421955
-    second: StalagtiteMAYBEmitePLATFORM 1_5
-  - first:
-      213: 3280176029776695131
-    second: StalagtiteMAYBEmitePLATFORM 1_6
+      213: -7991387500299606691
+    second: Trees 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,155 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StalagtiteMAYBEmitePLATFORM 1_0
+      name: Trees 1_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 1996
-        width: 773
-        height: 1062
+        x: 24
+        y: 208
+        width: 556
+        height: 926
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b22e506a16e682ac0800000000000000
-      internalID: -3879729713303395797
+      spriteID: c12ff01a26e6ce7c0800000000000000
+      internalID: -4040733395770150372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StalagtiteMAYBEmitePLATFORM 1_1
+      name: Trees 1_1
       rect:
         serializedVersion: 2
-        x: 2010
-        y: 2712
-        width: 105
-        height: 357
+        x: 1071
+        y: 679
+        width: 506
+        height: 655
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b60d28a3cbd8a2a80800000000000000
-      internalID: -8490818307878629269
+      spriteID: 2a8ec0c8378ea6b50800000000000000
+      internalID: 6587332987951311010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StalagtiteMAYBEmitePLATFORM 1_2
+      name: Trees 1_2
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 1724
-        width: 99
-        height: 358
+        x: 1576
+        y: 820
+        width: 9
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b830a6393f53dd00800000000000000
-      internalID: 996244641913256113
+      spriteID: 85e4a22eb42341eb0800000000000000
+      internalID: -4750116405470671272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StalagtiteMAYBEmitePLATFORM 1_3
+      name: Trees 1_3
       rect:
         serializedVersion: 2
-        x: 2232
-        y: 1774
-        width: 529
-        height: 858
+        x: 829
+        y: 96
+        width: 321
+        height: 390
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 306d33b78709a25a0800000000000000
-      internalID: -6545260261292124669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StalagtiteMAYBEmitePLATFORM 1_4
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 103
-        width: 525
-        height: 729
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd58032c1eee53000800000000000000
-      internalID: 15180827158676959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StalagtiteMAYBEmitePLATFORM 1_5
-      rect:
-        serializedVersion: 2
-        x: 1159
-        y: 124
-        width: 773
-        height: 1062
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3f441d96ad3ec9c0800000000000000
-      internalID: -3905116041074421955
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StalagtiteMAYBEmitePLATFORM 1_6
-      rect:
-        serializedVersion: 2
-        x: 2258
-        y: 587
-        width: 525
-        height: 690
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5f479f48b6858d20800000000000000
-      internalID: 3280176029776695131
+      spriteID: d55252e9863e81190800000000000000
+      internalID: -7991387500299606691
       vertices: []
       indices: 
       edges: []
@@ -275,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8b41ebee807853e40966b113a91f530f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -285,13 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StalagtiteMAYBEmitePLATFORM 1_0: -3879729713303395797
-      StalagtiteMAYBEmitePLATFORM 1_1: -8490818307878629269
-      StalagtiteMAYBEmitePLATFORM 1_2: 996244641913256113
-      StalagtiteMAYBEmitePLATFORM 1_3: -6545260261292124669
-      StalagtiteMAYBEmitePLATFORM 1_4: 15180827158676959
-      StalagtiteMAYBEmitePLATFORM 1_5: -3905116041074421955
-      StalagtiteMAYBEmitePLATFORM 1_6: 3280176029776695131
+      Trees 1_0: -4040733395770150372
+      Trees 1_1: 6587332987951311010
+      Trees 1_2: -4750116405470671272
+      Trees 1_3: -7991387500299606691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
