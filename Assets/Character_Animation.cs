@@ -6,7 +6,7 @@ public class Character_Animation : MonoBehaviour
 {
     private Animator anim;
     private CharacterMovement movement;
-    private SpriteRenderer spriteRenderer;
+    //private SpriteRenderer spriteRenderer;
     private Transform visuals;
 
     private bool wasGrounded;
@@ -16,7 +16,7 @@ public class Character_Animation : MonoBehaviour
         anim = GetComponent<Animator>();
 
         movement = GetComponentInParent<CharacterMovement>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        //spriteRenderer = GetComponent<SpriteRenderer>();
         visuals = transform;
 
     }
@@ -51,11 +51,11 @@ public class Character_Animation : MonoBehaviour
         //flips in the correct direction
         if (movement.MoveInputX > 0.01f)
         {
-            spriteRenderer.flipX = false;
+           // spriteRenderer.flipX = false;
         }
         else if (movement.MoveInputX < -0.01f)
         {
-            spriteRenderer.flipX = true;
+            //spriteRenderer.flipX = true;
         }
         
         //trigger squash upon landing
