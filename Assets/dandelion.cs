@@ -5,7 +5,7 @@ public class Dandelion : MonoBehaviour
     [Header("References")]
     [SerializeField] private Rigidbody2D flowerRb;
     [SerializeField] private Transform stemVisual;
-    
+
 
     [Header("Carry")]
     [SerializeField] private float hoverHeight = 1.5f;
@@ -13,7 +13,7 @@ public class Dandelion : MonoBehaviour
 
     private Transform holder;
     private bool isCarried;
-    private float timeSinceThrown=9999999f;
+    private float timeSinceThrown = 9999999f;
     private float timeSinceFrozen;
     private bool hasBeenFrozen;
 
@@ -115,9 +115,8 @@ public class Dandelion : MonoBehaviour
 
         scale.y = length;
 
-        stemVisual.localScale = scale;
+        //stemVisual.localScale = scale;
     }
-    
     private void UpdateVisualState()
     {
         switch (state)
@@ -139,7 +138,6 @@ public class Dandelion : MonoBehaviour
                 break;
         }
     }
-    
     private void SetState(DandelionState newState)
     {
         if (state == newState)
@@ -155,7 +153,7 @@ public class Dandelion : MonoBehaviour
 
         flowerRb.linearVelocity = Vector2.zero;
         flowerRb.angularVelocity = 0f;
-        flowerRb.gameObject.layer =LayerMask.NameToLayer("CarriedDandelion");
+        flowerRb.gameObject.layer = LayerMask.NameToLayer("CarriedDandelion");
         SetState(DandelionState.Idle);
         timeSinceFrozen = 999;
     }
@@ -167,19 +165,19 @@ public class Dandelion : MonoBehaviour
         flowerRb.linearVelocity = velocity;
         timeSinceThrown = 0f;
         hasBeenFrozen = false;
-        flowerRb.gameObject.layer =LayerMask.NameToLayer("Dandelion");
+        flowerRb.gameObject.layer = LayerMask.NameToLayer("Dandelion");
 
     }
-    
+
     private void HandleGlideAfterThrown()
     {
-        
-        timeSinceThrown+= Time.deltaTime;
+
+        timeSinceThrown += Time.deltaTime;
         timeSinceFrozen += Time.deltaTime;
         flowerRb.linearVelocity *= 0.9965f;
         flowerRb.linearDamping = 0.2f;
         flowerRb.mass = 0.5f;
-        if(!hasBeenFrozen&&timeSinceThrown<999999)
+        if (!hasBeenFrozen && timeSinceThrown < 999999)
             flowerRb.gravityScale = 0f;
         SetState(DandelionState.Idle);
 
@@ -191,27 +189,27 @@ public class Dandelion : MonoBehaviour
             timeSinceFrozen = 0f;
         }
 
-         
-            if (timeSinceFrozen < 5)
-            {
-                flowerRb.bodyType = RigidbodyType2D.Kinematic;
-                flowerRb.linearVelocity = Vector2.zero;
-                flowerRb.linearDamping = 10f;
-                flowerRb.mass = 20f;
+
+        if (timeSinceFrozen < 5)
+        {
+            flowerRb.bodyType = RigidbodyType2D.Kinematic;
+            flowerRb.linearVelocity = Vector2.zero;
+            flowerRb.linearDamping = 10f;
+            flowerRb.mass = 20f;
             SetState(DandelionState.Platform);
         }
-            else 
-            {
-                flowerRb.linearDamping = 0.2f;
-                flowerRb.mass = 0.5f;
-                flowerRb.bodyType = RigidbodyType2D.Dynamic;
+        else
+        {
+            flowerRb.linearDamping = 0.2f;
+            flowerRb.mass = 0.5f;
+            flowerRb.bodyType = RigidbodyType2D.Dynamic;
             flowerRb.gravityScale = 0.2f;
             SetState(DandelionState.Idle);
         }
     }
-        
-    
-    
+
+
+
 
     public bool IsCarried =>
         isCarried;
