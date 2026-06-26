@@ -68,5 +68,16 @@ public class GameManager : MonoBehaviour
             dandelion.Reset();
             
         }
+       
+
+        foreach (FallingPlatform platform in FindObjectsByType<FallingPlatform>())
+        {
+            platform.ResetPlatform();
+        }
+
+        foreach (PlatformSpriteSwap platformSprite in FindObjectsByType<PlatformSpriteSwap>())
+        {
+            platformSprite.ResetSprite();
+        }
     }
 }
