@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         currentLives--;
         //hearts.UpdateHearts(currentLives);
-        hearts[currentLives].gameObject.SetActive(false);
+        //hearts[currentLives].gameObject.SetActive(false);
         Debug.Log("player dies");
 
         
