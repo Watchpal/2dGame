@@ -290,6 +290,15 @@ public class CharacterMovement : MonoBehaviour
         carriedDandelion = null;
     }
 
+    public void ForceDropDandelion()
+    {
+        if (carriedDandelion == null)
+            return;
+
+        carriedDandelion.Drop(Vector2.zero);
+        carriedDandelion = null;
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
