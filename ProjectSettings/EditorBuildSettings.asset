@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: cae3119dfe285db45b5e3aab9e4e203a
   - enabled: 1
-    path: Assets/Scenes/Test.unity
+    path: Assets/Scenes/Skog.unity
     guid: 44cde100e616f5d4897a0e2742f98972
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
