@@ -9198,11 +9198,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8248805002289997555, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.37
+      value: -2.1999996
       objectReference: {fileID: 0}
     - target: {fileID: 8248805002289997555, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4399998
+      value: 0.19999975
       objectReference: {fileID: 0}
     - target: {fileID: 8248805002289997555, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10780,17 +10780,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 1.0724952}
+  m_Offset: {x: -0.0000104904175, y: -0.13721037}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 7.562238, y: 22.66}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 12.529327}
+  m_Size: {x: 7.0864725, y: 22.228313}
   m_EdgeRadius: 0
 --- !u!212 &998775636
 SpriteRenderer:
@@ -10839,9 +10839,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 7129217658263603201, guid: d571b2d7d001b51478f7a1106798d9b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10860,8 +10860,8 @@ Transform:
   m_GameObject: {fileID: 998775634}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 92.24, y: -22.6511, z: 0}
-  m_LocalScale: {x: 1, y: 9.153771, z: 1}
+  m_LocalPosition: {x: 94.58, y: -25.08, z: 0}
+  m_LocalScale: {x: 0.2143, y: 0.2900821, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -14524,7 +14524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c7379b0cdea7f345b95152668bb6a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyFollower
-  KeyObject: {fileID: 0}
 --- !u!1 &1374804120
 GameObject:
   m_ObjectHideFlags: 0
@@ -18698,11 +18697,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.37
+      value: -2.2
       objectReference: {fileID: 0}
     - target: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.94
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21696,7 +21695,7 @@ Transform:
   m_GameObject: {fileID: 1980095867}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.37, y: 1.4399998, z: -10}
+  m_LocalPosition: {x: -2.1999996, y: 0.19999975, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -16,17 +16,24 @@ public class CameraPath : MonoBehaviour
     {
         foreach (Transform point in waypoints)
         {
-            while (Vector3.Distance(transform.position, point.position) > 0.05f)
+            Vector3 target = new Vector3(
+                    point.position.x,
+                    point.position.y,
+                    transform.position.z
+                );
+            while (Vector2.Distance(
+                new Vector2(transform.position.x, transform.position.y),
+                new Vector2(target.x, target.y)) > 0.05f)
             {
                 transform.position = Vector3.MoveTowards(
                     transform.position,
-                    point.position,
+                    target,
                     speed * Time.deltaTime);
 
                 yield return null;
             }
 
-            transform.position = point.position;
+            transform.position = target;
 
             yield return new WaitForSeconds(waitTime);
         }
