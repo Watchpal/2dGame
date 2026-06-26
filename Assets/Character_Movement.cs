@@ -44,6 +44,7 @@ public class CharacterMovement : MonoBehaviour
 
     private bool touchingLeftWall;
     private bool touchingRightWall;
+    private bool wallSliding;
 
     [Header("Wall Jump")]
     public bool hasWallJump;
@@ -116,7 +117,7 @@ public class CharacterMovement : MonoBehaviour
             touchingRightWall &&
             moveInput.x > 0.1f;
 
-        bool wallSliding =
+         wallSliding =
             !isGrounded &&
             rb.linearVelocity.y < 0 &&
             (
@@ -254,10 +255,11 @@ public class CharacterMovement : MonoBehaviour
 
     private void TryPickup()
     {
+        Vector3 pickUpPos = transform.position + new Vector3(0f, 0.3f, 0f);
         Collider2D hit =
             Physics2D.OverlapCircle(
-                transform.position,
-                1.5f,
+                pickUpPos,
+                1.2f,
                 dandelionLayer
             );
 
@@ -304,8 +306,8 @@ public class CharacterMovement : MonoBehaviour
         Gizmos.color = Color.yellow;
 
         Gizmos.DrawWireSphere(
-            transform.position,
-            0.8f
+            transform.position + new Vector3(0f, 0.3f, 0f),
+            1.2f
         );
         if (groundCheck == null)
             return;
@@ -323,6 +325,9 @@ public class CharacterMovement : MonoBehaviour
 
     public bool IsGrounded =>
         isGrounded;
+
+    public bool WallSliding =>
+        wallSliding;
 
     public float MoveInputX =>
         moveInput.x;
