@@ -62,13 +62,7 @@ public class Platform : MonoBehaviour
             PlayerOnPlatform = true;
         }
     }
-    //private void OnCollisionExit2D(Collision2D collision)
-   // {
-      //  if (collision.gameObject.CompareTag("Player"))
-      //  {
-      //      PlayerOnPlatform = false;
-     //   }
-  //  }
+    
     private void flip()
     {
         Vector3 localScale = transform.localScale;

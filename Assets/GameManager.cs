@@ -40,14 +40,12 @@ public class GameManager : MonoBehaviour
     {
         currentLives--;
         //hearts.UpdateHearts(currentLives);
-        hearts[currentLives].gameObject.SetActive(false);
+        //hearts[currentLives].gameObject.SetActive(false);
         Debug.Log("player dies");
 
-        if (currentLives > 0)
-        {
-            player.transform.position = currentCheckpoint;
-        }
-        else
+        
+        player.transform.position = currentCheckpoint;
+        /*else
         {
             hearts[2].gameObject.SetActive(true);
             hearts[1].gameObject.SetActive(true);
@@ -56,6 +54,30 @@ public class GameManager : MonoBehaviour
             currentCheckpoint = startPosition;
             player.transform.position = startPosition;
         
+        }*/
+
+        //make player drop dandelion
+        CharacterMovement playerMovement =
+    player.GetComponent<CharacterMovement>();
+
+        playerMovement.ForceDropDandelion();
+
+        //reset all dandelions
+        foreach (Dandelion dandelion in FindObjectsByType<Dandelion>())
+        {
+            dandelion.Reset();
+            
+        }
+       
+
+        foreach (FallingPlatform platform in FindObjectsByType<FallingPlatform>())
+        {
+            platform.ResetPlatform();
+        }
+
+        foreach (PlatformSpriteSwap platformSprite in FindObjectsByType<PlatformSpriteSwap>())
+        {
+            platformSprite.ResetSprite();
         }
     }
 }

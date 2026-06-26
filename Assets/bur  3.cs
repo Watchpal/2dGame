@@ -1,10 +1,14 @@
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class bur3 : MonoBehaviour
 {
+    private Animator anim;
+    private bool isFree=false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        anim = GetComponent<Animator>();
         
     }
 
@@ -17,10 +21,13 @@ public class bur3 : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")&&!isFree)
         {
             //other.gameObject.SetActive(false);
-            gameObject.SetActive(false);
+            Coincounter.instance.AddCoin(1);
+            isFree = true;
+            anim.SetTrigger("isFree");
+
         }
     }
 }
