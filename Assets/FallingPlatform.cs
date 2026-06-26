@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+
 public class FallingPlatform : MonoBehaviour
 {
     public float fallDelay = 0.5f;
@@ -26,6 +27,8 @@ public class FallingPlatform : MonoBehaviour
             StartCoroutine(FallAndRespawn());
         }
     }
+
+    
 
     private IEnumerator FallAndRespawn()
     {
@@ -56,6 +59,23 @@ public class FallingPlatform : MonoBehaviour
             elapsed += Time.deltaTime;
             yield return null;
         }
+
+        transform.position = startPos;
+        transform.rotation = startRotation;
+
+        triggered = false;
+
+        
+
+    }
+
+    public void ResetPlatform()
+    {
+        StopAllCoroutines();
+
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.bodyType = RigidbodyType2D.Kinematic;
 
         transform.position = startPos;
         transform.rotation = startRotation;
