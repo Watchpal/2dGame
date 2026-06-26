@@ -1,21 +1,35 @@
 using UnityEngine;
 
-public class checkpoint : MonoBehaviour
+public class Checkpoint : MonoBehaviour
 {
-   public Vector2 respawnPoint;
+    private bool activated;
+    [SerializeField] private Sprite idle;
+    [SerializeField] private Sprite active;
+    private SpriteRenderer spriteRenderer;
 
-        void Start()
+    private void Start()
     {
-        respawnPoint = transform.position;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite=idle;
     }
-
-    public void SetCheckpoint(Vector2 newPoint)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        respawnPoint = newPoint;
-    }
+        if (activated)
+            return;
 
-    public void Respawn()
-    {
-        transform.position = respawnPoint;
+        if (!other.CompareTag("Player"))
+            return;
+
+        GameManager.Instance.SetCheckpoint(
+            transform.position
+        );
+
+        activated = true;
+        spriteRenderer.sprite = active;
+
+        Debug.Log(
+            "Checkpoint activated: " +
+            transform.position
+        );
     }
 }
