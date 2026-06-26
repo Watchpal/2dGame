@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         currentLives--;
         //hearts.UpdateHearts(currentLives);
-        hearts[currentLives].gameObject.SetActive(false);
+        //hearts[currentLives].gameObject.SetActive(false);
         Debug.Log("player dies");
 
         
@@ -55,5 +55,18 @@ public class GameManager : MonoBehaviour
             player.transform.position = startPosition;
         
         }*/
+
+        //make player drop dandelion
+        CharacterMovement playerMovement =
+    player.GetComponent<CharacterMovement>();
+
+        playerMovement.ForceDropDandelion();
+
+        //reset all dandelions
+        foreach (Dandelion dandelion in FindObjectsByType<Dandelion>())
+        {
+            dandelion.Reset();
+            
+        }
     }
 }

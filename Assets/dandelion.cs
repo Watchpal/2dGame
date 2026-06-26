@@ -14,8 +14,8 @@ public class Dandelion : MonoBehaviour
     private Transform holder;
     private bool isCarried;
     private float timeSinceThrown = 9999999f;
-    private float timeSinceFrozen;
-    private bool hasBeenFrozen;
+    private float timeSinceFrozen=99999999f;
+    private bool hasBeenFrozen=true;
 
     [Header("Visuals")]
     [SerializeField] private Sprite idleSprite;
@@ -34,10 +34,13 @@ public class Dandelion : MonoBehaviour
     }
     private DandelionState state;
 
+    private Vector3 startPosition;
+
     private void Start()
     {
         flowerRb.gameObject.layer =
     LayerMask.NameToLayer("Dandelion");
+        startPosition = transform.position;
     }
     private void Update()
     {
@@ -208,7 +211,15 @@ public class Dandelion : MonoBehaviour
         }
     }
 
+    public void Reset()
+    {
+        timeSinceThrown = 99999999f;
+        hasBeenFrozen = true;
+        flowerRb.bodyType = RigidbodyType2D.Dynamic;
+        flowerRb.position=startPosition;
+        
 
+    }
 
 
     public bool IsCarried =>
