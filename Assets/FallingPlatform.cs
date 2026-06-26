@@ -41,22 +41,25 @@ public class FallingPlatform : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Kinematic;
 
         Vector3 currentPos = transform.position;
+        Quaternion currentRot = transform.rotation;
+
         float duration = 1f; //Time to move back
         float elapsed = 0f;
 
         while (elapsed < duration)
         {
-            transform.position = Vector3.Lerp(
-                currentPos,
-                startPos,
-                elapsed / duration
-               );
+            float t = elapsed / duration;
 
+            transform.position = Vector3.Lerp(currentPos, startPos, t);
+            transform.rotation = Quaternion.Lerp(currentRot, startRotation, t);
+               
             elapsed += Time.deltaTime;
             yield return null;
         }
 
         transform.position = startPos;
+        transform.rotation = startRotation;
+
         triggered = false;
     }
 }
