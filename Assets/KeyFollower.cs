@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class KeyFollower : MonoBehaviour
@@ -18,4 +18,4 @@ public class KeyFollower : MonoBehaviour
             KeyObject.GetComponent<Collider2D>().enabled = false;
         }
     }
-}
+}*/

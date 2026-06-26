@@ -35,4 +35,11 @@ public class PlatformSpriteSwap : MonoBehaviour
 
         isSwapping = false;
     }
+
+    public void ResetSprite()
+    {
+        StopAllCoroutines();
+        spriteRenderer.sprite = originalSprite;
+        isSwapping = false;
+    }
 }
