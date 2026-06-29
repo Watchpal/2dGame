@@ -33,6 +33,11 @@ public class Character_Animation : MonoBehaviour
             movement.IsGrounded
         );
 
+        anim.SetBool(
+            "wallSliding",
+            movement.WallSliding
+        );
+
         anim.SetFloat(
             "yVelocity",
             movement.Velocity.y
