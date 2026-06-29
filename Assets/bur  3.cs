@@ -24,7 +24,7 @@ public class bur3 : MonoBehaviour
         if (other.CompareTag("Player")&&!isFree)
         {
             //other.gameObject.SetActive(false);
-            Coincounter.instance.AddCoin(1);
+            //Coincounter.instance.AddCoin(1); //doesn't work in factory for some reason
             isFree = true;
             anim.SetTrigger("isFree");
 
