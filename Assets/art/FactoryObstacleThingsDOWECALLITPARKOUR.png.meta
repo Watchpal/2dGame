@@ -273,7 +273,7 @@ TextureImporter:
         width: 1005
         height: 1122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -295,7 +295,7 @@ TextureImporter:
         width: 679
         height: 957
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -317,7 +317,7 @@ TextureImporter:
         width: 1394
         height: 820
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -339,7 +339,7 @@ TextureImporter:
         width: 13
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,12 +356,12 @@ TextureImporter:
       name: FactoryObstacleThingsDOWECALLITPARKOUR_4
       rect:
         serializedVersion: 2
-        x: 27
-        y: 1375
-        width: 324
-        height: 602
+        x: 17
+        y: 822
+        width: 1032
+        height: 1162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -383,7 +383,7 @@ TextureImporter:
         width: 188
         height: 335
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -397,50 +397,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_6
-      rect:
-        serializedVersion: 2
-        x: 358
-        y: 1611
-        width: 56
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7c6d0f039a07d3e0800000000000000
-      internalID: -2029141480378110850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_7
-      rect:
-        serializedVersion: 2
-        x: 423
-        y: 1636
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1945553061952d1d0800000000000000
-      internalID: -3327499223593298799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_8
       rect:
         serializedVersion: 2
@@ -449,7 +405,7 @@ TextureImporter:
         width: 617
         height: 527
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -463,50 +419,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_9
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 1589
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f9d97a2f39bc4820800000000000000
-      internalID: 2903899540693834226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_10
-      rect:
-        serializedVersion: 2
-        x: 508
-        y: 1561
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc5babd574d792e70800000000000000
-      internalID: 9090935068292724173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_11
       rect:
         serializedVersion: 2
@@ -515,7 +427,7 @@ TextureImporter:
         width: 364
         height: 435
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -529,37 +441,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_12
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 1569
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4f110456895e5c50800000000000000
-      internalID: 6655855732770021198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_13
       rect:
         serializedVersion: 2
         x: 281
-        y: 990
+        y: 988
         width: 380
         height: 562
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -573,50 +463,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_14
-      rect:
-        serializedVersion: 2
-        x: 1338
-        y: 1432
-        width: 10
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bbc838207209d1b0800000000000000
-      internalID: -5631467178315691086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_15
-      rect:
-        serializedVersion: 2
-        x: 649
-        y: 1395
-        width: 28
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a45e3e7ed13ddf90800000000000000
-      internalID: -6927325820155439964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_16
       rect:
         serializedVersion: 2
@@ -625,7 +471,7 @@ TextureImporter:
         width: 552
         height: 519
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -639,182 +485,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_17
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 1368
-        width: 16
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0d0665bbe4bad900800000000000000
-      internalID: 710078815717952782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_18
-      rect:
-        serializedVersion: 2
-        x: 253
-        y: 1359
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f74d1c3bdfac9d30800000000000000
-      internalID: 4439616688821716981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_19
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 1280
-        width: 37
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96f928a72d8b22cf0800000000000000
-      internalID: -278457012805525655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_20
-      rect:
-        serializedVersion: 2
-        x: 4149
-        y: 1312
-        width: 24
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6eed449d066bb6a00800000000000000
-      internalID: 750894289965604582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_21
-      rect:
-        serializedVersion: 2
-        x: 4177
-        y: 1301
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00c028466ec2e5e70800000000000000
-      internalID: 9105764864630066176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_22
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 1241
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92a45e79a436e6820800000000000000
-      internalID: 2913375180982405673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_23
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 1191
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f27fc07ce3be2650800000000000000
-      internalID: 6210098764276790006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_24
-      rect:
-        serializedVersion: 2
-        x: 1411
-        y: 1128
-        width: 65
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f03d88bede8509110800000000000000
-      internalID: 1265609274173215503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_25
       rect:
         serializedVersion: 2
@@ -823,7 +493,7 @@ TextureImporter:
         width: 419
         height: 365
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -837,37 +507,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_26
-      rect:
-        serializedVersion: 2
-        x: 2330
-        y: 1004
-        width: 39
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d651a78aca2867b90800000000000000
-      internalID: -7244459272506305171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_27
       rect:
         serializedVersion: 2
         x: 2536
         y: 241
-        width: 570
+        width: 884
         height: 886
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -881,94 +529,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_28
-      rect:
-        serializedVersion: 2
-        x: 2677
-        y: 969
-        width: 16
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9edb930aa2c749d70800000000000000
-      internalID: 9048994073812778473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_29
-      rect:
-        serializedVersion: 2
-        x: 2709
-        y: 1004
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eeb91e5da5b976900800000000000000
-      internalID: 677681083380243438
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_30
-      rect:
-        serializedVersion: 2
-        x: 2781
-        y: 1004
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bbd5ec5e838beb20800000000000000
-      internalID: 3164767810625067953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_31
-      rect:
-        serializedVersion: 2
-        x: 2366
-        y: 960
-        width: 42
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10a84e1d1786d12c0800000000000000
-      internalID: -4459293217964914175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_32
       rect:
         serializedVersion: 2
@@ -977,7 +537,7 @@ TextureImporter:
         width: 423
         height: 514
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -995,11 +555,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1744
-        y: 822
-        width: 156
-        height: 136
+        y: 785
+        width: 220
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1013,37 +573,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_34
-      rect:
-        serializedVersion: 2
-        x: 1869
-        y: 810
-        width: 79
-        height: 117
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b1190129b3e40190800000000000000
-      internalID: -7997016654040460877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_35
       rect:
         serializedVersion: 2
         x: 2025
-        y: 402
+        y: 242
         width: 516
-        height: 553
+        height: 713
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1057,50 +595,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_36
-      rect:
-        serializedVersion: 2
-        x: 2328
-        y: 915
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 16a6f4ec0c7f243d0800000000000000
-      internalID: -3223741975776761247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_37
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 814
-        width: 10
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b574136c227feda0800000000000000
-      internalID: -5913382250747759181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_38
       rect:
         serializedVersion: 2
@@ -1109,7 +603,7 @@ TextureImporter:
         width: 14
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1123,59 +617,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_39
-      rect:
-        serializedVersion: 2
-        x: 3613
-        y: 638
-        width: 76
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf742e5e9186968a0800000000000000
-      internalID: -6311398942342756356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_40
-      rect:
-        serializedVersion: 2
-        x: 3642
-        y: 694
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0cf8753b4d0a04ba0800000000000000
-      internalID: -6106704259312021568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_41
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 305
-        width: 227
-        height: 276
+        x: 1426
+        y: 251
+        width: 380
+        height: 330
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1189,59 +639,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_42
-      rect:
-        serializedVersion: 2
-        x: 3157
-        y: 543
-        width: 7
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6b312dae068768d0800000000000000
-      internalID: -2853164441323619478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_43
-      rect:
-        serializedVersion: 2
-        x: 3225
-        y: 550
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e717f04354e86ef0800000000000000
-      internalID: -114590744274593822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FactoryObstacleThingsDOWECALLITPARKOUR_44
       rect:
         serializedVersion: 2
-        x: 3413
+        x: 3409
         y: 84
-        width: 551
+        width: 717
         height: 544
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1254,253 +660,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_45
-      rect:
-        serializedVersion: 2
-        x: 3911
-        y: 187
-        width: 181
-        height: 435
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56b0bdd7eb3aedd60800000000000000
-      internalID: 7916945233514531685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_46
-      rect:
-        serializedVersion: 2
-        x: 1622
-        y: 341
-        width: 169
-        height: 136
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85b25356553f9a510800000000000000
-      internalID: 1561046293956340568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_47
-      rect:
-        serializedVersion: 2
-        x: 2451
-        y: 347
-        width: 79
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b221b908148a4f90800000000000000
-      internalID: -6968612234625736015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_48
-      rect:
-        serializedVersion: 2
-        x: 3064
-        y: 458
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66f151469ed519c30800000000000000
-      internalID: 4364372770886590310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_49
-      rect:
-        serializedVersion: 2
-        x: 2215
-        y: 268
-        width: 208
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0aa4ec26cac7948d0800000000000000
-      internalID: -2861619008383333728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_50
-      rect:
-        serializedVersion: 2
-        x: 3156
-        y: 426
-        width: 19
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 154e278d54ef0b380800000000000000
-      internalID: -8957380082902309807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_51
-      rect:
-        serializedVersion: 2
-        x: 3112
-        y: 406
-        width: 20
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ec7fd3495266e980800000000000000
-      internalID: -8510006310339642137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_52
-      rect:
-        serializedVersion: 2
-        x: 1584
-        y: 273
-        width: 71
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7307c19a5f4b9ba60800000000000000
-      internalID: 7690376805909033015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_53
-      rect:
-        serializedVersion: 2
-        x: 2235
-        y: 347
-        width: 6
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22c39d9bfad1d8140800000000000000
-      internalID: 4723464224756022306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_54
-      rect:
-        serializedVersion: 2
-        x: 1495
-        y: 236
-        width: 48
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fabd26463baa1f980800000000000000
-      internalID: -8506830533666088017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FactoryObstacleThingsDOWECALLITPARKOUR_55
-      rect:
-        serializedVersion: 2
-        x: 2312
-        y: 208
-        width: 51
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64786731a4e870790800000000000000
-      internalID: -7563920600340199610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8327912b57cf3744b8ce4ff0acbad253
     internalID: 0
     vertices: []
     indices: 

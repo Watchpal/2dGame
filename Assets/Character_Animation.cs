@@ -54,14 +54,7 @@ public class Character_Animation : MonoBehaviour
         anim.SetFloat("walkAnimationSpeed", speedMultiplier);
 
         //flips in the correct direction
-        if (movement.MoveInputX > 0.01f)
-        {
-            spriteRenderer.flipX = false;
-        }
-        else if (movement.MoveInputX < -0.01f)
-        {
-            spriteRenderer.flipX = true;
-        }
+        spriteRenderer.flipX = !movement.FacingRight;
 
         //trigger squash upon landing
         if (!wasGrounded && movement.IsGrounded)

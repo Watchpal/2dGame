@@ -39,7 +39,9 @@ public class CharacterMovement : MonoBehaviour
     [Header("Wall Check")]
     [SerializeField] private Transform wallCheckLeft;
     [SerializeField] private Transform wallCheckRight;
-    [SerializeField] private float wallCheckRadius = 0.05f;
+    [SerializeField]
+    private Vector2 wallCheckSize =
+    new Vector2(0.1f, 0.8f);
     [SerializeField] private LayerMask wallLayer;
 
     private bool touchingLeftWall;
@@ -50,6 +52,7 @@ public class CharacterMovement : MonoBehaviour
     public bool hasWallJump;
     [SerializeField] private float wallJumpX = 8f;
     [SerializeField] private float wallJumpY = 10f;
+    public bool FacingRight { get; private set; } = true;
 
     private void Awake()
     {
@@ -97,16 +100,18 @@ public class CharacterMovement : MonoBehaviour
             return;
 
         touchingLeftWall =
-    Physics2D.OverlapCircle(
+    Physics2D.OverlapBox(
         wallCheckLeft.position,
-        wallCheckRadius,
+        wallCheckSize,
+        0f,
         wallLayer
     );
 
         touchingRightWall =
-            Physics2D.OverlapCircle(
+            Physics2D.OverlapBox(
                 wallCheckRight.position,
-                wallCheckRadius,
+                wallCheckSize,
+                0f,
                 wallLayer
             );
         bool pressingIntoLeftWall =
@@ -142,13 +147,38 @@ public class CharacterMovement : MonoBehaviour
     {
         if (jumpBufferTimeCounter <= 0)
             return;
+        if (!isGrounded && hasWallJump)
+        {
+            if (touchingLeftWall)
+            {
+                rb.linearVelocity =
+                    new Vector2(
+                        wallJumpX,
+                        wallJumpY
+                    );
+                FacingRight = true;
+                return;
 
+            }
+
+            if (touchingRightWall)
+            {
+                rb.linearVelocity =
+                    new Vector2(
+                        -wallJumpX,
+                        wallJumpY
+                    );
+                FacingRight = false;
+                return;
+            }
+        }
         if (coyoteTimeCounter <= 0)
             return;
 
         if (hasJumped)
             return;
 
+        
         rb.linearVelocity =
             new Vector2(
                 rb.linearVelocity.x,
@@ -191,6 +221,10 @@ public class CharacterMovement : MonoBehaviour
                 newSpeed,
                 rb.linearVelocity.y
             );
+        if (moveInput.x > 0.01f)
+            FacingRight = true;
+        else if (moveInput.x < -0.01f)
+            FacingRight = false;
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -203,30 +237,6 @@ public class CharacterMovement : MonoBehaviour
     {
         if (context.started)
         {
-            if (!isGrounded&&hasWallJump)
-            {
-                if (touchingLeftWall)
-                {
-                    rb.linearVelocity =
-                        new Vector2(
-                            wallJumpX,
-                            wallJumpY
-                        );
-
-                    return;
-                }
-
-                if (touchingRightWall)
-                {
-                    rb.linearVelocity =
-                        new Vector2(
-                            -wallJumpX,
-                            wallJumpY
-                        );
-
-                    return;
-                }
-            }
             jumpBufferTimeCounter =
                 jumpBufferTime;
         }
@@ -305,10 +315,14 @@ public class CharacterMovement : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
 
-        Gizmos.DrawWireSphere(
-            transform.position + new Vector3(0f, 0.3f, 0f),
-            1.2f
-        );
+        Gizmos.DrawWireCube(
+      wallCheckLeft.position,
+      wallCheckSize
+  );
+        Gizmos.DrawWireCube(
+      wallCheckRight.position,
+      wallCheckSize
+  );
         if (groundCheck == null)
             return;
 

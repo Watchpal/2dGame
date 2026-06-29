@@ -7,7 +7,7 @@ public class PlayerKey : MonoBehaviour
     public GameObject wall;
     public Transform keyFollowPoint;
 
-    private bool hasKey = false;
+    public bool hasKey = false;
     private GameObject KeyObject;
     private Vector3 keyVelocity = Vector3.zero;
 
@@ -29,13 +29,13 @@ public class PlayerKey : MonoBehaviour
             }
             Debug.Log("Key collected!");
         }
-}
+    }
 
     private void Update()
     {
         if (hasKey && KeyObject != null)
         {
-           // Vector3 targetPos = transform.position + keyOffset;
+            // Vector3 targetPos = transform.position + keyOffset;
             Vector3 targetPos = keyFollowPoint.position;
 
             Vector2 newPosition =
@@ -48,13 +48,12 @@ public class PlayerKey : MonoBehaviour
             KeyObject.transform.position = newPosition;
         }
 
-        if (hasKey && Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            wall.SetActive(false);
+        
+    }
+    public void UseKey()
+    {
+        Destroy(KeyObject);
 
-            Destroy(KeyObject);
-
-            hasKey = false;
-        }
+        hasKey = false;
     }
 }

@@ -158,7 +158,9 @@ public class Dandelion : MonoBehaviour
         flowerRb.angularVelocity = 0f;
         flowerRb.gameObject.layer = LayerMask.NameToLayer("CarriedDandelion");
         SetState(DandelionState.Idle);
-        timeSinceFrozen = 999;
+        timeSinceFrozen = 999f;
+        timeSinceThrown = 999f;
+        hasBeenFrozen = true;
     }
 
     public void Drop(Vector2 velocity)
@@ -217,8 +219,6 @@ public class Dandelion : MonoBehaviour
         hasBeenFrozen = true;
         flowerRb.bodyType = RigidbodyType2D.Dynamic;
         flowerRb.position=startPosition;
-        
-
     }
 
 
