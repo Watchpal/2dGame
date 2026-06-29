@@ -50,6 +50,7 @@ public class CharacterMovement : MonoBehaviour
     public bool hasWallJump;
     [SerializeField] private float wallJumpX = 8f;
     [SerializeField] private float wallJumpY = 10f;
+    public bool FacingRight { get; private set; } = true;
 
     private void Awake()
     {
@@ -142,13 +143,38 @@ public class CharacterMovement : MonoBehaviour
     {
         if (jumpBufferTimeCounter <= 0)
             return;
+        if (!isGrounded && hasWallJump)
+        {
+            if (touchingLeftWall)
+            {
+                rb.linearVelocity =
+                    new Vector2(
+                        wallJumpX,
+                        wallJumpY
+                    );
+                FacingRight = true;
+                return;
 
+            }
+
+            if (touchingRightWall)
+            {
+                rb.linearVelocity =
+                    new Vector2(
+                        -wallJumpX,
+                        wallJumpY
+                    );
+                FacingRight = false;
+                return;
+            }
+        }
         if (coyoteTimeCounter <= 0)
             return;
 
         if (hasJumped)
             return;
 
+        
         rb.linearVelocity =
             new Vector2(
                 rb.linearVelocity.x,
@@ -191,6 +217,10 @@ public class CharacterMovement : MonoBehaviour
                 newSpeed,
                 rb.linearVelocity.y
             );
+        if (moveInput.x > 0.01f)
+            FacingRight = true;
+        else if (moveInput.x < -0.01f)
+            FacingRight = false;
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -203,30 +233,6 @@ public class CharacterMovement : MonoBehaviour
     {
         if (context.started)
         {
-            if (!isGrounded&&hasWallJump)
-            {
-                if (touchingLeftWall)
-                {
-                    rb.linearVelocity =
-                        new Vector2(
-                            wallJumpX,
-                            wallJumpY
-                        );
-
-                    return;
-                }
-
-                if (touchingRightWall)
-                {
-                    rb.linearVelocity =
-                        new Vector2(
-                            -wallJumpX,
-                            wallJumpY
-                        );
-
-                    return;
-                }
-            }
             jumpBufferTimeCounter =
                 jumpBufferTime;
         }

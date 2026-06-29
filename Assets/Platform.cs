@@ -69,12 +69,15 @@ public class Platform : MonoBehaviour
         localScale.x *= -1;
         transform.localScale = localScale;
     }
-    private void OnDrawGizmos()
+    
+    /*private void OnDrawGizmos()
     {
+        if (pointA == null || pointB == null)
+            return; // Prevent error in edit mode
         Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
         Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
         Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
-    }
+    }*/
 }
 
 
