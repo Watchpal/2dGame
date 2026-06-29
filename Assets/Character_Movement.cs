@@ -39,7 +39,9 @@ public class CharacterMovement : MonoBehaviour
     [Header("Wall Check")]
     [SerializeField] private Transform wallCheckLeft;
     [SerializeField] private Transform wallCheckRight;
-    [SerializeField] private float wallCheckRadius = 0.05f;
+    [SerializeField]
+    private Vector2 wallCheckSize =
+    new Vector2(0.1f, 0.8f);
     [SerializeField] private LayerMask wallLayer;
 
     private bool touchingLeftWall;
@@ -98,16 +100,18 @@ public class CharacterMovement : MonoBehaviour
             return;
 
         touchingLeftWall =
-    Physics2D.OverlapCircle(
+    Physics2D.OverlapBox(
         wallCheckLeft.position,
-        wallCheckRadius,
+        wallCheckSize,
+        0f,
         wallLayer
     );
 
         touchingRightWall =
-            Physics2D.OverlapCircle(
+            Physics2D.OverlapBox(
                 wallCheckRight.position,
-                wallCheckRadius,
+                wallCheckSize,
+                0f,
                 wallLayer
             );
         bool pressingIntoLeftWall =
@@ -311,10 +315,14 @@ public class CharacterMovement : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
 
-        Gizmos.DrawWireSphere(
-            transform.position + new Vector3(0f, 0.3f, 0f),
-            1.2f
-        );
+        Gizmos.DrawWireCube(
+      wallCheckLeft.position,
+      wallCheckSize
+  );
+        Gizmos.DrawWireCube(
+      wallCheckRight.position,
+      wallCheckSize
+  );
         if (groundCheck == null)
             return;
 
