@@ -156,7 +156,7 @@ public class Dandelion : MonoBehaviour
 
         flowerRb.linearVelocity = Vector2.zero;
         flowerRb.angularVelocity = 0f;
-        flowerRb.gameObject.layer = LayerMask.NameToLayer("CarriedDandelion");
+        SetLayerRecursively(gameObject, LayerMask.NameToLayer("CarriedDandelion"));
         SetState(DandelionState.Idle);
         timeSinceFrozen = 999f;
         timeSinceThrown = 999f;
@@ -170,7 +170,7 @@ public class Dandelion : MonoBehaviour
         flowerRb.linearVelocity = velocity;
         timeSinceThrown = 0f;
         hasBeenFrozen = false;
-        flowerRb.gameObject.layer = LayerMask.NameToLayer("Dandelion");
+        SetLayerRecursively(gameObject, LayerMask.NameToLayer("Dandelion"));
 
     }
 
@@ -210,6 +210,16 @@ public class Dandelion : MonoBehaviour
             flowerRb.bodyType = RigidbodyType2D.Dynamic;
             flowerRb.gravityScale = 0.2f;
             SetState(DandelionState.Idle);
+        }
+    }
+
+    private void SetLayerRecursively(GameObject obj, int layer)
+    {
+        obj.layer = layer;
+
+        foreach (Transform child in obj.transform)
+        {
+            SetLayerRecursively(child.gameObject, layer);
         }
     }
 
