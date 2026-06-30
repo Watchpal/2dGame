@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 8ce0f0c2e2a1f954f8fa987a6fd72e0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7289561073228513385
+    second: grotta_grunden_gra_0
+  - first:
+      213: -6309364202820563573
+    second: grotta_grunden_gra_1
+  - first:
+      213: 2179453746110514773
+    second: grotta_grunden_gra_2
+  - first:
+      213: -754770982110870730
+    second: grotta_grunden_gra_3
+  - first:
+      213: 7257619781239080252
+    second: grotta_grunden_gra_4
+  - first:
+      213: -8884608291425953575
+    second: grotta_grunden_gra_5
+  - first:
+      213: -639265440242708071
+    second: grotta_grunden_gra_6
+  - first:
+      213: -1809490583824800797
+    second: grotta_grunden_gra_7
+  - first:
+      213: 2465773437416520048
+    second: grotta_grunden_gra_8
+  - first:
+      213: 3139490037874973117
+    second: grotta_grunden_gra_9
+  - first:
+      213: -7734055831504238907
+    second: grotta_grunden_gra_10
+  - first:
+      213: -7269544229916535097
+    second: grotta_grunden_gra_11
+  - first:
+      213: 1622308573893797235
+    second: grotta_grunden_gra_12
+  - first:
+      213: 6631428132495072344
+    second: grotta_grunden_gra_13
+  - first:
+      213: -830107835112606678
+    second: grotta_grunden_gra_14
+  - first:
+      213: -802709151476660559
+    second: grotta_grunden_gra_15
+  - first:
+      213: -57283076076109781
+    second: grotta_grunden_gra_16
+  - first:
+      213: 9036676685409165967
+    second: grotta_grunden_gra_17
+  - first:
+      213: 2140652079901839043
+    second: grotta_grunden_gra_18
+  - first:
+      213: -4671446401541237508
+    second: grotta_grunden_gra_19
+  - first:
+      213: 1208668194014621020
+    second: grotta_grunden_gra_20
+  - first:
+      213: 346580120369002916
+    second: grotta_grunden_gra_21
+  - first:
+      213: -5850481953434508016
+    second: grotta_grunden_gra_22
+  - first:
+      213: -1386933011110521349
+    second: grotta_grunden_gra_23
+  - first:
+      213: 5243048719697810403
+    second: grotta_grunden_gra_24
+  - first:
+      213: -5149444688838884522
+    second: grotta_grunden_gra_25
+  - first:
+      213: -29059540716682480
+    second: grotta_grunden_gra_26
+  - first:
+      213: 8114249082144706968
+    second: grotta_grunden_gra_27
+  - first:
+      213: 2194328879306766327
+    second: grotta_grunden_gra_28
+  - first:
+      213: -7287661493649021155
+    second: grotta_grunden_gra_29
+  - first:
+      213: 3954658210413555014
+    second: grotta_grunden_gra_30
+  - first:
+      213: 7938691139604182302
+    second: grotta_grunden_gra_31
+  - first:
+      213: 5937724244773962755
+    second: grotta_grunden_gra_32
+  - first:
+      213: -6228867957800825654
+    second: grotta_grunden_gra_33
+  - first:
+      213: -1542063869941921161
+    second: grotta_grunden_gra_34
+  - first:
+      213: -3179465332022470815
+    second: grotta_grunden_gra_35
+  - first:
+      213: -280363172596782209
+    second: grotta_grunden_gra_36
+  - first:
+      213: 7146823994871162651
+    second: grotta_grunden_gra_37
+  - first:
+      213: -7714958779752469776
+    second: grotta_grunden_gra_38
+  - first:
+      213: -6704257201289798850
+    second: grotta_grunden_gra_39
+  - first:
+      213: -7010309607209043130
+    second: grotta_grunden_gra_40
+  - first:
+      213: 507066657650903484
+    second: grotta_grunden_gra_41
+  - first:
+      213: -5610578774379871878
+    second: grotta_grunden_gra_42
+  - first:
+      213: 6876050956013690825
+    second: grotta_grunden_gra_43
+  - first:
+      213: 4070954153030991803
+    second: grotta_grunden_gra_44
+  - first:
+      213: -1027619439699227024
+    second: grotta_grunden_gra_45
+  - first:
+      213: 3008517490964757465
+    second: grotta_grunden_gra_46
+  - first:
+      213: 6364329704702250656
+    second: grotta_grunden_gra_47
+  - first:
+      213: -1148638509746605000
+    second: grotta_grunden_gra_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grotta_grunden_gra_0
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 3688
+        width: 2937
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ff2bd53d646da90800000000000000
+      internalID: -7289561073228513385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_1
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 5180
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d805c9fa2a078a0800000000000000
+      internalID: -6309364202820563573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_2
+      rect:
+        serializedVersion: 2
+        x: 3411
+        y: 3708
+        width: 1403
+        height: 1483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556cf4582a9fe3e10800000000000000
+      internalID: 2179453746110514773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_3
+      rect:
+        serializedVersion: 2
+        x: 4467
+        y: 5183
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633428c6ac38685f0800000000000000
+      internalID: -754770982110870730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_4
+      rect:
+        serializedVersion: 2
+        x: 4657
+        y: 5183
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c358a9f0dbe38b460800000000000000
+      internalID: 7257619781239080252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_5
+      rect:
+        serializedVersion: 2
+        x: 5647
+        y: 5172
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8d015e4d783b480800000000000000
+      internalID: -8884608291425953575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_6
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 5164
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9915625187fd027f0800000000000000
+      internalID: -639265440242708071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_7
+      rect:
+        serializedVersion: 2
+        x: 5772
+        y: 5157
+        width: 6
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e365bea6e563e6e0800000000000000
+      internalID: -1809490583824800797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_8
+      rect:
+        serializedVersion: 2
+        x: 5785
+        y: 5174
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0793ec980ef283220800000000000000
+      internalID: 2465773437416520048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_9
+      rect:
+        serializedVersion: 2
+        x: 5786
+        y: 5166
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db95a634e85b19b20800000000000000
+      internalID: 3139490037874973117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_10
+      rect:
+        serializedVersion: 2
+        x: 5734
+        y: 5096
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6c622b23d1ba490800000000000000
+      internalID: -7734055831504238907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_11
+      rect:
+        serializedVersion: 2
+        x: 5788
+        y: 5029
+        width: 54
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c695d0e9046d1b90800000000000000
+      internalID: -7269544229916535097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_12
+      rect:
+        serializedVersion: 2
+        x: 5810
+        y: 5151
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375a2077d09938610800000000000000
+      internalID: 1622308573893797235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_13
+      rect:
+        serializedVersion: 2
+        x: 5843
+        y: 5143
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c96ee60c0970c50800000000000000
+      internalID: 6631428132495072344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_14
+      rect:
+        serializedVersion: 2
+        x: 5998
+        y: 3506
+        width: 2226
+        height: 1659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2438d2725dda74f0800000000000000
+      internalID: -830107835112606678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_15
+      rect:
+        serializedVersion: 2
+        x: 5609
+        y: 5093
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6474897443cd4f0800000000000000
+      internalID: -802709151476660559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_16
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 5069
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2087d6885d743ff0800000000000000
+      internalID: -57283076076109781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_17
+      rect:
+        serializedVersion: 2
+        x: 5994
+        y: 5015
+        width: 11
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f822ed72199b86d70800000000000000
+      internalID: 9036676685409165967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_18
+      rect:
+        serializedVersion: 2
+        x: 5335
+        y: 5059
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce004a99bf15bd10800000000000000
+      internalID: 2140652079901839043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_19
+      rect:
+        serializedVersion: 2
+        x: 5445
+        y: 5034
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf49bd88f30bb2fb0800000000000000
+      internalID: -4671446401541237508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_20
+      rect:
+        serializedVersion: 2
+        x: 5453
+        y: 5019
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ded83915d06c010800000000000000
+      internalID: 1208668194014621020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_21
+      rect:
+        serializedVersion: 2
+        x: 3411
+        y: 5006
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a97ec088cc4fc400800000000000000
+      internalID: 346580120369002916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_22
+      rect:
+        serializedVersion: 2
+        x: 5459
+        y: 5016
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015e3b819a9eecea0800000000000000
+      internalID: -5850481953434508016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_23
+      rect:
+        serializedVersion: 2
+        x: 5475
+        y: 5009
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf59e7156cf90cce0800000000000000
+      internalID: -1386933011110521349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_24
+      rect:
+        serializedVersion: 2
+        x: 5482
+        y: 5004
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e397ad180d03c840800000000000000
+      internalID: 5243048719697810403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_25
+      rect:
+        serializedVersion: 2
+        x: 5998
+        y: 4999
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6538c33a65f7988b0800000000000000
+      internalID: -5149444688838884522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_26
+      rect:
+        serializedVersion: 2
+        x: 5385
+        y: 4979
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0130f3e6082c89ff0800000000000000
+      internalID: -29059540716682480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_27
+      rect:
+        serializedVersion: 2
+        x: 5411
+        y: 4977
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89156409c8a9b9070800000000000000
+      internalID: 8114249082144706968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_28
+      rect:
+        serializedVersion: 2
+        x: 5366
+        y: 4954
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7f57b5d72d37e10800000000000000
+      internalID: 2194328879306766327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_29
+      rect:
+        serializedVersion: 2
+        x: 5541
+        y: 4926
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17e1c3bb760dda90800000000000000
+      internalID: -7287661493649021155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_30
+      rect:
+        serializedVersion: 2
+        x: 5449
+        y: 4944
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d28cf80b4c1e630800000000000000
+      internalID: 3954658210413555014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_31
+      rect:
+        serializedVersion: 2
+        x: 5468
+        y: 4923
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15f5adc785eb2e60800000000000000
+      internalID: 7938691139604182302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_32
+      rect:
+        serializedVersion: 2
+        x: 5460
+        y: 4929
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3040affbdb8076250800000000000000
+      internalID: 5937724244773962755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_33
+      rect:
+        serializedVersion: 2
+        x: 5286
+        y: 3120
+        width: 2589
+        height: 1787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc0876289d9e89a0800000000000000
+      internalID: -6228867957800825654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_34
+      rect:
+        serializedVersion: 2
+        x: 5605
+        y: 4887
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ac52b941d799ae0800000000000000
+      internalID: -1542063869941921161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_35
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 4907
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1679125402540e3d0800000000000000
+      internalID: -3179465332022470815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_36
+      rect:
+        serializedVersion: 2
+        x: 5753
+        y: 4899
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b64411e23fb1cf0800000000000000
+      internalID: -280363172596782209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_37
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 3688
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17a88ece8e9e2360800000000000000
+      internalID: 7146823994871162651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_38
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2534
+        width: 4442
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0faa21c8dd5fee490800000000000000
+      internalID: -7714958779752469776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_39
+      rect:
+        serializedVersion: 2
+        x: 8093
+        y: 3396
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b544a9891b5f2a0800000000000000
+      internalID: -6704257201289798850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_40
+      rect:
+        serializedVersion: 2
+        x: 7859
+        y: 3283
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bfbc0fd8066be90800000000000000
+      internalID: -7010309607209043130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_41
+      rect:
+        serializedVersion: 2
+        x: 5059
+        y: 1016
+        width: 3131
+        height: 1749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb90ab64076790700800000000000000
+      internalID: 507066657650903484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_42
+      rect:
+        serializedVersion: 2
+        x: 8204
+        y: 2747
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71cdb0b4583322b0800000000000000
+      internalID: -5610578774379871878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_43
+      rect:
+        serializedVersion: 2
+        x: 8193
+        y: 2580
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf5ea2e9e3ac6f50800000000000000
+      internalID: 6876050956013690825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_44
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 449
+        width: 4528
+        height: 1804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf305cbb3fee7830800000000000000
+      internalID: 4070954153030991803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_45
+      rect:
+        serializedVersion: 2
+        x: 8182
+        y: 1714
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e017c60992db1f0800000000000000
+      internalID: -1027619439699227024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_46
+      rect:
+        serializedVersion: 2
+        x: 8178
+        y: 1379
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbf08dd7b660c920800000000000000
+      internalID: 3008517490964757465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_47
+      rect:
+        serializedVersion: 2
+        x: 8180
+        y: 1210
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae8e329524a25850800000000000000
+      internalID: 6364329704702250656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grotta_grunden_gra_48
+      rect:
+        serializedVersion: 2
+        x: 8179
+        y: 1189
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83438337c573f00f0800000000000000
+      internalID: -1148638509746605000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      grotta_grunden_gra_0: -7289561073228513385
+      grotta_grunden_gra_1: -6309364202820563573
+      grotta_grunden_gra_10: -7734055831504238907
+      grotta_grunden_gra_11: -7269544229916535097
+      grotta_grunden_gra_12: 1622308573893797235
+      grotta_grunden_gra_13: 6631428132495072344
+      grotta_grunden_gra_14: -830107835112606678
+      grotta_grunden_gra_15: -802709151476660559
+      grotta_grunden_gra_16: -57283076076109781
+      grotta_grunden_gra_17: 9036676685409165967
+      grotta_grunden_gra_18: 2140652079901839043
+      grotta_grunden_gra_19: -4671446401541237508
+      grotta_grunden_gra_2: 2179453746110514773
+      grotta_grunden_gra_20: 1208668194014621020
+      grotta_grunden_gra_21: 346580120369002916
+      grotta_grunden_gra_22: -5850481953434508016
+      grotta_grunden_gra_23: -1386933011110521349
+      grotta_grunden_gra_24: 5243048719697810403
+      grotta_grunden_gra_25: -5149444688838884522
+      grotta_grunden_gra_26: -29059540716682480
+      grotta_grunden_gra_27: 8114249082144706968
+      grotta_grunden_gra_28: 2194328879306766327
+      grotta_grunden_gra_29: -7287661493649021155
+      grotta_grunden_gra_3: -754770982110870730
+      grotta_grunden_gra_30: 3954658210413555014
+      grotta_grunden_gra_31: 7938691139604182302
+      grotta_grunden_gra_32: 5937724244773962755
+      grotta_grunden_gra_33: -6228867957800825654
+      grotta_grunden_gra_34: -1542063869941921161
+      grotta_grunden_gra_35: -3179465332022470815
+      grotta_grunden_gra_36: -280363172596782209
+      grotta_grunden_gra_37: 7146823994871162651
+      grotta_grunden_gra_38: -7714958779752469776
+      grotta_grunden_gra_39: -6704257201289798850
+      grotta_grunden_gra_4: 7257619781239080252
+      grotta_grunden_gra_40: -7010309607209043130
+      grotta_grunden_gra_41: 507066657650903484
+      grotta_grunden_gra_42: -5610578774379871878
+      grotta_grunden_gra_43: 6876050956013690825
+      grotta_grunden_gra_44: 4070954153030991803
+      grotta_grunden_gra_45: -1027619439699227024
+      grotta_grunden_gra_46: 3008517490964757465
+      grotta_grunden_gra_47: 6364329704702250656
+      grotta_grunden_gra_48: -1148638509746605000
+      grotta_grunden_gra_5: -8884608291425953575
+      grotta_grunden_gra_6: -639265440242708071
+      grotta_grunden_gra_7: -1809490583824800797
+      grotta_grunden_gra_8: 2465773437416520048
+      grotta_grunden_gra_9: 3139490037874973117
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
