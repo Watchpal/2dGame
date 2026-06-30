@@ -78,7 +78,6 @@ GameObject:
   - component: {fileID: 8913330407695537231}
   - component: {fileID: 133629186830673418}
   - component: {fileID: 537697195393548922}
-  - component: {fileID: 4304522250888258627}
   m_Layer: 6
   m_Name: Character
   m_TagString: Player
@@ -391,19 +390,6 @@ DistanceJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.6
   m_MaxDistanceOnly: 0
---- !u!114 &4304522250888258627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4531585031999787022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ec5360030f43484e94968c9a13a11e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerLives
-  lives: 3
 --- !u!1 &8025788836192288066
 GameObject:
   m_ObjectHideFlags: 0

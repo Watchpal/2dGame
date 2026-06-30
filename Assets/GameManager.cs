@@ -4,9 +4,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public int maxLives = 3;
+    public int maxLives = 2;
     public int currentLives;
-    public GameObject[] hearts;
+    public Hearts heartsUI;
 
     public Vector3 startPosition;
     public Vector3 currentCheckpoint;
@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+           
         }
         else
         {
@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         currentLives = maxLives;
-        //hearts.UpdateHearts(currentLives);
+        heartsUI.UpdateHearts(currentLives);
         currentCheckpoint = startPosition;
     }
 
@@ -36,25 +36,30 @@ public class GameManager : MonoBehaviour
         currentCheckpoint = checkpointPos;
     }
 
-    public void PlayerDied(GameObject player)
+    public void TakeDamage(GameObject player)
     {
         currentLives--;
-        //hearts.UpdateHearts(currentLives);
-        //hearts[currentLives].gameObject.SetActive(false);
+        heartsUI.UpdateHearts(currentLives);
+
+        if (currentLives <= 0)
+        {
+            RespawnPlayer(player);
+        }
+    }
+    public void PlayerDied(GameObject player)
+    {
+        RespawnPlayer(player);
+    }
+    public void RespawnPlayer(GameObject player)
+    {
+        currentLives=2;
+        heartsUI.UpdateHearts(currentLives);
+        
         Debug.Log("player dies");
 
         
         player.transform.position = currentCheckpoint;
-        /*else
-        {
-            hearts[2].gameObject.SetActive(true);
-            hearts[1].gameObject.SetActive(true);
-            hearts[0].gameObject.SetActive(true);
-            currentLives = maxLives;
-            currentCheckpoint = startPosition;
-            player.transform.position = startPosition;
         
-        }*/
 
         //make player drop dandelion
         CharacterMovement playerMovement =
