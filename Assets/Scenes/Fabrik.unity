@@ -1923,7 +1923,6 @@ GameObject:
   - component: {fileID: 164273540}
   - component: {fileID: 164273539}
   - component: {fileID: 164273538}
-  - component: {fileID: 164273537}
   - component: {fileID: 164273536}
   - component: {fileID: 164273535}
   - component: {fileID: 164273543}
@@ -1971,18 +1970,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &164273537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164273534}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &164273538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4130,7 +4117,6 @@ GameObject:
   - component: {fileID: 357578027}
   - component: {fileID: 357578026}
   - component: {fileID: 357578025}
-  - component: {fileID: 357578024}
   - component: {fileID: 357578023}
   - component: {fileID: 357578022}
   - component: {fileID: 357578030}
@@ -4178,18 +4164,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &357578024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357578021}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &357578025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5189,7 +5163,6 @@ GameObject:
   - component: {fileID: 438288207}
   - component: {fileID: 438288206}
   - component: {fileID: 438288205}
-  - component: {fileID: 438288204}
   - component: {fileID: 438288203}
   - component: {fileID: 438288202}
   - component: {fileID: 438288210}
@@ -5237,18 +5210,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &438288204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438288201}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &438288205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5803,7 +5764,6 @@ GameObject:
   - component: {fileID: 477455620}
   - component: {fileID: 477455619}
   - component: {fileID: 477455618}
-  - component: {fileID: 477455617}
   - component: {fileID: 477455616}
   - component: {fileID: 477455615}
   - component: {fileID: 477455623}
@@ -5851,18 +5811,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &477455617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477455614}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &477455618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6428,7 +6376,6 @@ GameObject:
   - component: {fileID: 483354419}
   - component: {fileID: 483354418}
   - component: {fileID: 483354417}
-  - component: {fileID: 483354416}
   - component: {fileID: 483354415}
   - component: {fileID: 483354414}
   - component: {fileID: 483354422}
@@ -6476,18 +6423,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &483354416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483354413}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &483354417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12011,11 +11946,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8248805002289997555, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 365.8
+      value: 434.5
       objectReference: {fileID: 0}
     - target: {fileID: 8248805002289997555, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -21.6
+      value: 3.7999997
       objectReference: {fileID: 0}
     - target: {fileID: 8248805002289997555, guid: 11305556d43a25441a8c05067cf2cf0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13689,7 +13624,6 @@ GameObject:
   - component: {fileID: 964139819}
   - component: {fileID: 964139818}
   - component: {fileID: 964139817}
-  - component: {fileID: 964139816}
   - component: {fileID: 964139815}
   - component: {fileID: 964139814}
   - component: {fileID: 964139822}
@@ -13737,18 +13671,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &964139816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964139813}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &964139817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15866,7 +15788,6 @@ GameObject:
   - component: {fileID: 1150465805}
   - component: {fileID: 1150465804}
   - component: {fileID: 1150465803}
-  - component: {fileID: 1150465802}
   - component: {fileID: 1150465801}
   - component: {fileID: 1150465800}
   - component: {fileID: 1150465808}
@@ -15914,18 +15835,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1150465802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1150465799}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1150465803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16615,7 +16524,6 @@ GameObject:
   - component: {fileID: 1210812924}
   - component: {fileID: 1210812923}
   - component: {fileID: 1210812922}
-  - component: {fileID: 1210812921}
   - component: {fileID: 1210812920}
   - component: {fileID: 1210812919}
   - component: {fileID: 1210812927}
@@ -16663,18 +16571,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1210812921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1210812918}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1210812922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19640,7 +19536,6 @@ GameObject:
   - component: {fileID: 1393264427}
   - component: {fileID: 1393264426}
   - component: {fileID: 1393264425}
-  - component: {fileID: 1393264424}
   - component: {fileID: 1393264423}
   - component: {fileID: 1393264422}
   - component: {fileID: 1393264430}
@@ -19688,18 +19583,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1393264424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1393264421}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1393264425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20615,7 +20498,6 @@ GameObject:
   - component: {fileID: 1466959512}
   - component: {fileID: 1466959511}
   - component: {fileID: 1466959510}
-  - component: {fileID: 1466959509}
   - component: {fileID: 1466959508}
   - component: {fileID: 1466959507}
   - component: {fileID: 1466959515}
@@ -20663,18 +20545,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1466959509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466959506}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1466959510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21206,7 +21076,6 @@ GameObject:
   - component: {fileID: 1479621077}
   - component: {fileID: 1479621076}
   - component: {fileID: 1479621075}
-  - component: {fileID: 1479621074}
   - component: {fileID: 1479621073}
   - component: {fileID: 1479621072}
   - component: {fileID: 1479621080}
@@ -21254,18 +21123,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1479621074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479621071}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1479621075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22437,7 +22294,6 @@ GameObject:
   - component: {fileID: 1526312738}
   - component: {fileID: 1526312737}
   - component: {fileID: 1526312736}
-  - component: {fileID: 1526312735}
   - component: {fileID: 1526312734}
   - component: {fileID: 1526312733}
   - component: {fileID: 1526312741}
@@ -22485,18 +22341,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1526312735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526312732}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1526312736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23887,7 +23731,6 @@ GameObject:
   - component: {fileID: 1627454576}
   - component: {fileID: 1627454575}
   - component: {fileID: 1627454574}
-  - component: {fileID: 1627454573}
   - component: {fileID: 1627454572}
   - component: {fileID: 1627454571}
   - component: {fileID: 1627454579}
@@ -23935,18 +23778,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1627454573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627454570}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1627454574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25522,13 +25353,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2607164634994105998, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 4531585031599796432}
     - target: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 365.8
+      value: 434.5
       objectReference: {fileID: 0}
     - target: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -22.1
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25967,7 +25802,6 @@ GameObject:
   - component: {fileID: 1793452268}
   - component: {fileID: 1793452267}
   - component: {fileID: 1793452266}
-  - component: {fileID: 1793452265}
   - component: {fileID: 1793452264}
   - component: {fileID: 1793452263}
   - component: {fileID: 1793452271}
@@ -26015,18 +25849,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1793452265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793452262}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1793452266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27496,7 +27318,6 @@ GameObject:
   - component: {fileID: 1897702322}
   - component: {fileID: 1897702321}
   - component: {fileID: 1897702320}
-  - component: {fileID: 1897702319}
   - component: {fileID: 1897702318}
   - component: {fileID: 1897702317}
   - component: {fileID: 1897702325}
@@ -27544,18 +27365,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1897702319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1897702316}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1897702320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28085,11 +27894,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4437954135279001693, guid: f80c3b8fd0aa63741a9ca9deb2d00a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 365.78683
+      value: 434.5
       objectReference: {fileID: 0}
     - target: {fileID: 4437954135279001693, guid: f80c3b8fd0aa63741a9ca9deb2d00a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.758677
+      value: 3.7999997
       objectReference: {fileID: 0}
     - target: {fileID: 4437954135279001693, guid: f80c3b8fd0aa63741a9ca9deb2d00a7c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28505,7 +28314,6 @@ GameObject:
   - component: {fileID: 1949439744}
   - component: {fileID: 1949439743}
   - component: {fileID: 1949439742}
-  - component: {fileID: 1949439741}
   - component: {fileID: 1949439740}
   - component: {fileID: 1949439739}
   - component: {fileID: 1949439747}
@@ -28553,18 +28361,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1949439741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949439738}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa00286ee77bbe4c9f7d9ccebc64700, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DeathZone
 --- !u!114 &1949439742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30986,6 +30782,11 @@ Transform:
 --- !u!1 &4531585031599796429 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4531585031999787022, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
+  m_PrefabInstance: {fileID: 1747493059}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4531585031599796432 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 133629186830673418, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
   m_PrefabInstance: {fileID: 1747493059}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
