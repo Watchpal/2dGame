@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 8913330407695537231}
   - component: {fileID: 133629186830673418}
   - component: {fileID: 537697195393548922}
+  - component: {fileID: 2607164634994105998}
   m_Layer: 6
   m_Name: Character
   m_TagString: Player
@@ -390,6 +391,23 @@ DistanceJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.6
   m_MaxDistanceOnly: 0
+--- !u!114 &2607164634994105998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4531585031999787022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c26ee40112fbc48b8c4375ed1fbb32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  invincibilityDuration: 0.25
+  blinkInterval: 0.1
+  animator: {fileID: 0}
+  knockbackForce: 14
+  knockbackUpForce: 5
 --- !u!1 &8025788836192288066
 GameObject:
   m_ObjectHideFlags: 0
