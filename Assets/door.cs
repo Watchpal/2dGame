@@ -7,6 +7,7 @@ public class door : MonoBehaviour
     private SpriteRenderer SpriteRenderer;
     [SerializeField] private Sprite closed;
     [SerializeField] private Sprite open;
+   //SerializeField] private GameObject darkness//
    
 
     private void Awake()
