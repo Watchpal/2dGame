@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class Death : MonoBehaviour
 {
@@ -9,4 +9,4 @@ public class Death : MonoBehaviour
             other.gameObject.GetComponent<PlayerLives>().die(other.gameObject);
         }
     }
-}
+}¨*/

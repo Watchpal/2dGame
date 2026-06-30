@@ -54,6 +54,15 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float wallJumpY = 10f;
     public bool FacingRight { get; private set; } = true;
 
+    private bool movementEnabled = true;
+
+    public void SetMovementEnabled(bool enabled)
+    {
+        movementEnabled = enabled;
+
+        if (!enabled)
+            rb.linearVelocity = Vector2.zero;
+    }
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -148,6 +157,8 @@ public class CharacterMovement : MonoBehaviour
 
     private void HandleBufferedJump()
     {
+        if (!movementEnabled) //only executes when movement is enabled
+            { return; }
         if (jumpBufferTimeCounter <= 0)
             return;
         if (!isGrounded && hasWallJump)
@@ -209,6 +220,8 @@ public class CharacterMovement : MonoBehaviour
 
     private void HandleMovement()
     {
+        if (!movementEnabled) //only executes when movement is enabled
+        { return; }
         float targetSpeed =
             moveInput.x * moveSpeed;
 

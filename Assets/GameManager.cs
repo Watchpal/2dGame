@@ -1,3 +1,4 @@
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -11,6 +12,10 @@ public class GameManager : MonoBehaviour
     public Vector3 startPosition;
     public Vector3 currentCheckpoint;
 
+     private ScreenWipe screenWipe;
+    private CinemachineCamera cinemachineCamera;
+    private CinemachineBrain brain;
+
     private void Awake()
     {
         if (Instance == null)
@@ -22,6 +27,11 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        screenWipe = FindAnyObjectByType<ScreenWipe>();
+        cinemachineCamera = FindAnyObjectByType<CinemachineCamera>();
+        brain = Camera.main.GetComponent<CinemachineBrain>();
+
+
     }
 
     private void Start()
@@ -52,37 +62,49 @@ public class GameManager : MonoBehaviour
     }
     public void RespawnPlayer(GameObject player)
     {
-        currentLives=2;
-        heartsUI.UpdateHearts(currentLives);
-        
-        Debug.Log("player dies");
-
-        
-        player.transform.position = currentCheckpoint;
-        
-
-        //make player drop dandelion
-        CharacterMovement playerMovement =
-    player.GetComponent<CharacterMovement>();
-
-        playerMovement.ForceDropDandelion();
-
-        //reset all dandelions
-        foreach (Dandelion dandelion in FindObjectsByType<Dandelion>())
+        screenWipe.Wipe(() =>
         {
-            dandelion.Reset();
             
-        }
+            currentLives = 2;
+            heartsUI.UpdateHearts(currentLives);
+
+            Debug.Log("player dies");
+
+
+            Vector3 oldPosition = player.transform.position;
+            
+            player.transform.position = currentCheckpoint;
+
+
+            CinemachineCore.OnTargetObjectWarped(player.transform, currentCheckpoint - oldPosition);
+
+
+
+
+            //make player drop dandelion
+            CharacterMovement playerMovement =
+        player.GetComponent<CharacterMovement>();
+
+            playerMovement.ForceDropDandelion();
+
+            //reset all dandelions
+            foreach (Dandelion dandelion in FindObjectsByType<Dandelion>())
+            {
+                dandelion.Reset();
+
+            }
+
+
+            foreach (FallingPlatform platform in FindObjectsByType<FallingPlatform>())
+            {
+                platform.ResetPlatform();
+            }
+
+            foreach (PlatformSpriteSwap platformSprite in FindObjectsByType<PlatformSpriteSwap>())
+            {
+                platformSprite.ResetSprite();
+            }
+        });
        
-
-        foreach (FallingPlatform platform in FindObjectsByType<FallingPlatform>())
-        {
-            platform.ResetPlatform();
-        }
-
-        foreach (PlatformSpriteSwap platformSprite in FindObjectsByType<PlatformSpriteSwap>())
-        {
-            platformSprite.ResetSprite();
-        }
     }
 }
