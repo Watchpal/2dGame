@@ -9,7 +9,7 @@ public class SceneManagement : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneToLoad);
+            SceneManager.LoadScene("Grotta");
         }
     }
 }

@@ -50,6 +50,7 @@ public class GameManager : MonoBehaviour
     {
         currentLives--;
         heartsUI.UpdateHearts(currentLives);
+        
 
         if (currentLives <= 0)
         {
@@ -59,6 +60,7 @@ public class GameManager : MonoBehaviour
     public void PlayerDied(GameObject player)
     {
         RespawnPlayer(player);
+   
     }
     public void RespawnPlayer(GameObject player)
     {
