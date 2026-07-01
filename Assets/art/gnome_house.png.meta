@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: a4d6b710d0414da46a96049d9e9cf5cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7885906081189949541
+    second: gnome_house_0
+  - first:
+      213: -8815493764689802580
+    second: gnome_house_1
+  - first:
+      213: 4700248544545273720
+    second: gnome_house_2
+  - first:
+      213: 7098131475201868589
+    second: gnome_house_3
+  - first:
+      213: 2031198586966093606
+    second: gnome_house_4
+  - first:
+      213: 6451909836505457721
+    second: gnome_house_5
+  - first:
+      213: -2504774099182785968
+    second: gnome_house_6
+  - first:
+      213: -3379506892821862820
+    second: gnome_house_7
+  - first:
+      213: -4808419569712469484
+    second: gnome_house_8
+  - first:
+      213: -2770030799589494426
+    second: gnome_house_9
+  - first:
+      213: -1761147603716427925
+    second: gnome_house_10
+  - first:
+      213: 8433036574369167924
+    second: gnome_house_11
+  - first:
+      213: -461318456689557262
+    second: gnome_house_12
+  - first:
+      213: 485930725628111401
+    second: gnome_house_13
+  - first:
+      213: 7505446414333290103
+    second: gnome_house_14
+  - first:
+      213: -5453531539890558233
+    second: gnome_house_15
+  - first:
+      213: 5852160717945099579
+    second: gnome_house_16
+  - first:
+      213: -1810006749071081386
+    second: gnome_house_17
+  - first:
+      213: 1716409521378281442
+    second: gnome_house_18
+  - first:
+      213: -42289039882375595
+    second: gnome_house_19
+  - first:
+      213: 5011674610537577101
+    second: gnome_house_20
+  - first:
+      213: 3154808761769334081
+    second: gnome_house_21
+  - first:
+      213: -4271547063516687391
+    second: gnome_house_22
+  - first:
+      213: 6241399490247227930
+    second: gnome_house_23
+  - first:
+      213: 567903310781192559
+    second: gnome_house_24
+  - first:
+      213: -2138406999877949140
+    second: gnome_house_25
+  - first:
+      213: 6519513127778183453
+    second: gnome_house_26
+  - first:
+      213: -7731832039634717502
+    second: gnome_house_27
+  - first:
+      213: 233422062039033537
+    second: gnome_house_28
+  - first:
+      213: -5290090844731969128
+    second: gnome_house_29
+  - first:
+      213: 7545611746656869998
+    second: gnome_house_30
+  - first:
+      213: 384910215313787281
+    second: gnome_house_31
+  - first:
+      213: -2797180246136716487
+    second: gnome_house_32
+  - first:
+      213: 2452230510721102906
+    second: gnome_house_33
+  - first:
+      213: 8151497022700913682
+    second: gnome_house_34
+  - first:
+      213: 6439799024230944194
+    second: gnome_house_35
+  - first:
+      213: 5641058961541583666
+    second: gnome_house_36
+  - first:
+      213: -8370311243024495594
+    second: gnome_house_37
+  - first:
+      213: -1155487833424830923
+    second: gnome_house_38
+  - first:
+      213: -7055971214445296150
+    second: gnome_house_39
+  - first:
+      213: 5984120841563334197
+    second: gnome_house_40
+  - first:
+      213: 59755981935041781
+    second: gnome_house_41
+  - first:
+      213: -5513354448939115235
+    second: gnome_house_42
+  - first:
+      213: 546360349737112766
+    second: gnome_house_43
+  - first:
+      213: -201854742810878121
+    second: gnome_house_44
+  - first:
+      213: -564094611212470968
+    second: gnome_house_45
+  - first:
+      213: 7550505709190403483
+    second: gnome_house_46
+  - first:
+      213: -8150858158280767776
+    second: gnome_house_47
+  - first:
+      213: 1987373964970081032
+    second: gnome_house_48
+  - first:
+      213: 8310100822026728212
+    second: gnome_house_49
+  - first:
+      213: -5721381612198243388
+    second: gnome_house_50
+  - first:
+      213: -855939458479345131
+    second: gnome_house_51
+  - first:
+      213: 4724921005517884543
+    second: gnome_house_52
+  - first:
+      213: 1532629153208191528
+    second: gnome_house_53
+  - first:
+      213: 3860088865329547591
+    second: gnome_house_54
+  - first:
+      213: -9003953983145203159
+    second: gnome_house_55
+  - first:
+      213: 4288457017299343991
+    second: gnome_house_56
+  - first:
+      213: -6729924071857257548
+    second: gnome_house_57
+  - first:
+      213: -3059686627141070566
+    second: gnome_house_58
+  - first:
+      213: -177785868820727466
+    second: gnome_house_59
+  - first:
+      213: -8471418093679162014
+    second: gnome_house_60
+  - first:
+      213: -5780447588569207667
+    second: gnome_house_61
+  - first:
+      213: -4296635999820898101
+    second: gnome_house_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gnome_house_0
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1619
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5607b6daccd507d60800000000000000
+      internalID: 7885906081189949541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_1
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1617
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa4ef3a02319a580800000000000000
+      internalID: -8815493764689802580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_2
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1644
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877faa5f523aa3140800000000000000
+      internalID: 4700248544545273720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_3
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1617
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d234d6c18f0a18260800000000000000
+      internalID: 7098131475201868589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_4
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1616
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fa3646a54403c10800000000000000
+      internalID: 2031198586966093606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_5
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1644
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934a1c700d9c98950800000000000000
+      internalID: 6451909836505457721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 1840
+        height: 1586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a6c974a314d3dd0800000000000000
+      internalID: -2504774099182785968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1629
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c566e59e2649911d0800000000000000
+      internalID: -3379506892821862820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_8
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1621
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a6040a0ef054db0800000000000000
+      internalID: -4808419569712469484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_9
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1617
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661b39df9afde89d0800000000000000
+      internalID: -2770030799589494426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_10
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1626
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fa37bd5952f87e0800000000000000
+      internalID: -1761147603716427925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_11
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1617
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ab621951a280570800000000000000
+      internalID: 8433036574369167924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_12
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1626
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f000bcce411999f0800000000000000
+      internalID: -461318456689557262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_13
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1617
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ae28e9b6f5eb600800000000000000
+      internalID: 485930725628111401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_14
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1620
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776a01f8fb3b82860800000000000000
+      internalID: 7505446414333290103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_15
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1620
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea2f6165f92154b0800000000000000
+      internalID: -5453531539890558233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_16
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1620
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35dc99ba2d073150800000000000000
+      internalID: 5852160717945099579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1620
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6500f88937091e6e0800000000000000
+      internalID: -1810006749071081386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_18
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1619
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7c9d2ad59e1d710800000000000000
+      internalID: 1716409521378281442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_19
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1619
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e2bef9752c96ff0800000000000000
+      internalID: -42289039882375595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_20
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1619
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8abfea518b0d8540800000000000000
+      internalID: 5011674610537577101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_21
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1619
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1451d8b9ad128cb20800000000000000
+      internalID: 3154808761769334081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_22
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1618
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e399bdc39a68b4c0800000000000000
+      internalID: -4271547063516687391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1618
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a7d7d94c7ed9650800000000000000
+      internalID: 6241399490247227930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_24
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1617
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6991e16d0991e700800000000000000
+      internalID: 567903310781192559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_25
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1617
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29e013d92ad252e0800000000000000
+      internalID: -2138406999877949140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_26
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1618
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19e6b9d5a6f97a50800000000000000
+      internalID: 6519513127778183453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_27
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1617
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4b69699b303b490800000000000000
+      internalID: -7731832039634717502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_28
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1617
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c66392f0284d3300800000000000000
+      internalID: 233422062039033537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_29
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1617
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8917432a762d596b0800000000000000
+      internalID: -5290090844731969128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_30
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1617
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e5f7cb7e567b860800000000000000
+      internalID: 7545611746656869998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_31
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1618
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199823e2dc9775500800000000000000
+      internalID: 384910215313787281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_32
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1617
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9330840e26b6e29d0800000000000000
+      internalID: -2797180246136716487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_33
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1617
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34f7e238a2180220800000000000000
+      internalID: 2452230510721102906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1618
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2140eb98a5fef1170800000000000000
+      internalID: 8151497022700913682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_35
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1617
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd4130d713ce5950800000000000000
+      internalID: 6439799024230944194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_36
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1617
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23358b7ec31194e40800000000000000
+      internalID: 5641058961541583666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_37
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1617
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c0114b54ea6db80800000000000000
+      internalID: -8370311243024495594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_38
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1617
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e5d6200f1e6ffe0800000000000000
+      internalID: -1155487833424830923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_39
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1617
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae54b998097241e90800000000000000
+      internalID: -7055971214445296150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_40
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536e46e333edb0350800000000000000
+      internalID: 5984120841563334197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_41
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1617
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc517cbfbb44d000800000000000000
+      internalID: 59755981935041781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_42
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d1a26f651ac73b0800000000000000
+      internalID: -5513354448939115235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_43
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1617
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb45075e7df059700800000000000000
+      internalID: 546360349737112766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_44
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f978e4e2ed23df0800000000000000
+      internalID: -201854742810878121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_45
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845f7f690feeb28f0800000000000000
+      internalID: -564094611212470968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_46
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1617
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b955ade20f8c8c860800000000000000
+      internalID: 7550505709190403483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_47
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1617
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6841da0b552ee80800000000000000
+      internalID: -8150858158280767776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_48
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bb6e17712949b10800000000000000
+      internalID: 1987373964970081032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_49
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1618
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413b5983ba8635370800000000000000
+      internalID: 8310100822026728212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_50
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1617
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3d874acb19990b0800000000000000
+      internalID: -5721381612198243388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_51
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1617
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5123914f8971f14f0800000000000000
+      internalID: -855939458479345131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_52
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cccadee9a429140800000000000000
+      internalID: 4724921005517884543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_53
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ac169381ef44510800000000000000
+      internalID: 1532629153208191528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_54
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1617
+        width: 37
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74988631f5ac19530800000000000000
+      internalID: 3860088865329547591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_55
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1617
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92aaaacae878b0380800000000000000
+      internalID: -9003953983145203159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_56
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a98ae9fe8a38b30800000000000000
+      internalID: 4288457017299343991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_57
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1621
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3099b96b18a92a0800000000000000
+      internalID: -6729924071857257548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_58
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a115e39393fc985d0800000000000000
+      internalID: -3059686627141070566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_59
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1617
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6593bdab1b0688df0800000000000000
+      internalID: -177785868820727466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_60
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1617
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dcf66902a7f6a80800000000000000
+      internalID: -8471418093679162014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_61
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1617
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ca1985b89b7cfa0800000000000000
+      internalID: -5780447588569207667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gnome_house_62
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1617
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0258d92584f54c0800000000000000
+      internalID: -4296635999820898101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gnome_house_0: 7885906081189949541
+      gnome_house_1: -8815493764689802580
+      gnome_house_10: -1761147603716427925
+      gnome_house_11: 8433036574369167924
+      gnome_house_12: -461318456689557262
+      gnome_house_13: 485930725628111401
+      gnome_house_14: 7505446414333290103
+      gnome_house_15: -5453531539890558233
+      gnome_house_16: 5852160717945099579
+      gnome_house_17: -1810006749071081386
+      gnome_house_18: 1716409521378281442
+      gnome_house_19: -42289039882375595
+      gnome_house_2: 4700248544545273720
+      gnome_house_20: 5011674610537577101
+      gnome_house_21: 3154808761769334081
+      gnome_house_22: -4271547063516687391
+      gnome_house_23: 6241399490247227930
+      gnome_house_24: 567903310781192559
+      gnome_house_25: -2138406999877949140
+      gnome_house_26: 6519513127778183453
+      gnome_house_27: -7731832039634717502
+      gnome_house_28: 233422062039033537
+      gnome_house_29: -5290090844731969128
+      gnome_house_3: 7098131475201868589
+      gnome_house_30: 7545611746656869998
+      gnome_house_31: 384910215313787281
+      gnome_house_32: -2797180246136716487
+      gnome_house_33: 2452230510721102906
+      gnome_house_34: 8151497022700913682
+      gnome_house_35: 6439799024230944194
+      gnome_house_36: 5641058961541583666
+      gnome_house_37: -8370311243024495594
+      gnome_house_38: -1155487833424830923
+      gnome_house_39: -7055971214445296150
+      gnome_house_4: 2031198586966093606
+      gnome_house_40: 5984120841563334197
+      gnome_house_41: 59755981935041781
+      gnome_house_42: -5513354448939115235
+      gnome_house_43: 546360349737112766
+      gnome_house_44: -201854742810878121
+      gnome_house_45: -564094611212470968
+      gnome_house_46: 7550505709190403483
+      gnome_house_47: -8150858158280767776
+      gnome_house_48: 1987373964970081032
+      gnome_house_49: 8310100822026728212
+      gnome_house_5: 6451909836505457721
+      gnome_house_50: -5721381612198243388
+      gnome_house_51: -855939458479345131
+      gnome_house_52: 4724921005517884543
+      gnome_house_53: 1532629153208191528
+      gnome_house_54: 3860088865329547591
+      gnome_house_55: -9003953983145203159
+      gnome_house_56: 4288457017299343991
+      gnome_house_57: -6729924071857257548
+      gnome_house_58: -3059686627141070566
+      gnome_house_59: -177785868820727466
+      gnome_house_6: -2504774099182785968
+      gnome_house_60: -8471418093679162014
+      gnome_house_61: -5780447588569207667
+      gnome_house_62: -4296635999820898101
+      gnome_house_7: -3379506892821862820
+      gnome_house_8: -4808419569712469484
+      gnome_house_9: -2770030799589494426
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
