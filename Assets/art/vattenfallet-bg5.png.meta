@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: d9066a0e76cc89b4580fd376ccb3dbfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2692330924850567143
+    second: vattenfallet-bg5_0
+  - first:
+      213: 2183164168823445878
+    second: vattenfallet-bg5_1
+  - first:
+      213: 8957715844172922734
+    second: vattenfallet-bg5_2
+  - first:
+      213: 5663389434373526967
+    second: vattenfallet-bg5_3
+  - first:
+      213: 4200435546409055701
+    second: vattenfallet-bg5_4
+  - first:
+      213: 1185013920872810166
+    second: vattenfallet-bg5_5
+  - first:
+      213: -7206725036129365328
+    second: vattenfallet-bg5_6
+  - first:
+      213: -9193440315207204786
+    second: vattenfallet-bg5_7
+  - first:
+      213: 6310360219501138544
+    second: vattenfallet-bg5_8
+  - first:
+      213: -7687872579658669269
+    second: vattenfallet-bg5_9
+  - first:
+      213: 7803741197175767471
+    second: vattenfallet-bg5_10
+  - first:
+      213: -2951787153497441995
+    second: vattenfallet-bg5_11
+  - first:
+      213: 3507132296087727920
+    second: vattenfallet-bg5_12
+  - first:
+      213: 5630928832603948311
+    second: vattenfallet-bg5_13
+  - first:
+      213: -2972754742408684451
+    second: vattenfallet-bg5_14
+  - first:
+      213: -1318209444054137088
+    second: vattenfallet-bg5_15
+  - first:
+      213: -288920596489617463
+    second: vattenfallet-bg5_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vattenfallet-bg5_0
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 0
+        width: 2541
+        height: 1069
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7548926b41d5520800000000000000
+      internalID: 2692330924850567143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_1
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 649
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6791511ae382c4e10800000000000000
+      internalID: 2183164168823445878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_2
+      rect:
+        serializedVersion: 2
+        x: 4931
+        y: 653
+        width: 179
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fb0daa913305c70800000000000000
+      internalID: 8957715844172922734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_3
+      rect:
+        serializedVersion: 2
+        x: 5091
+        y: 679
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5d8844fa6689e40800000000000000
+      internalID: 5663389434373526967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_4
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 631
+        width: 399
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5b2a5efd1fa4a30800000000000000
+      internalID: 4200435546409055701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_5
+      rect:
+        serializedVersion: 2
+        x: 4847
+        y: 607
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6448fe1e3027010800000000000000
+      internalID: 1185013920872810166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_6
+      rect:
+        serializedVersion: 2
+        x: 4910
+        y: 645
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2589333c19cfb90800000000000000
+      internalID: -7206725036129365328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_7
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 622
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40c1540eb65a6080800000000000000
+      internalID: -9193440315207204786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_8
+      rect:
+        serializedVersion: 2
+        x: 4850
+        y: 630
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0721f189f27e29750800000000000000
+      internalID: 6310360219501138544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_9
+      rect:
+        serializedVersion: 2
+        x: 4814
+        y: 604
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23aaf2fe903f4590800000000000000
+      internalID: -7687872579658669269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_10
+      rect:
+        serializedVersion: 2
+        x: 4863
+        y: 607
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa14eb8d5457c4c60800000000000000
+      internalID: 7803741197175767471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_11
+      rect:
+        serializedVersion: 2
+        x: 4964
+        y: 535
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539393f19352907d0800000000000000
+      internalID: -2951787153497441995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_12
+      rect:
+        serializedVersion: 2
+        x: 4873
+        y: 104
+        width: 72
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03feb90ed36dba030800000000000000
+      internalID: 3507132296087727920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_13
+      rect:
+        serializedVersion: 2
+        x: 4906
+        y: 129
+        width: 54
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7150dd670f3152e40800000000000000
+      internalID: 5630928832603948311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_14
+      rect:
+        serializedVersion: 2
+        x: 4926
+        y: 98
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c5f56ef47aeb6d0800000000000000
+      internalID: -2972754742408684451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_15
+      rect:
+        serializedVersion: 2
+        x: 4873
+        y: 31
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007869bae77c4bde0800000000000000
+      internalID: -1318209444054137088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattenfallet-bg5_16
+      rect:
+        serializedVersion: 2
+        x: 4758
+        y: 0
+        width: 142
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf31fd8f3c8dfbf0800000000000000
+      internalID: -288920596489617463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vattenfallet-bg5_0: 2692330924850567143
+      vattenfallet-bg5_1: 2183164168823445878
+      vattenfallet-bg5_10: 7803741197175767471
+      vattenfallet-bg5_11: -2951787153497441995
+      vattenfallet-bg5_12: 3507132296087727920
+      vattenfallet-bg5_13: 5630928832603948311
+      vattenfallet-bg5_14: -2972754742408684451
+      vattenfallet-bg5_15: -1318209444054137088
+      vattenfallet-bg5_16: -288920596489617463
+      vattenfallet-bg5_2: 8957715844172922734
+      vattenfallet-bg5_3: 5663389434373526967
+      vattenfallet-bg5_4: 4200435546409055701
+      vattenfallet-bg5_5: 1185013920872810166
+      vattenfallet-bg5_6: -7206725036129365328
+      vattenfallet-bg5_7: -9193440315207204786
+      vattenfallet-bg5_8: 6310360219501138544
+      vattenfallet-bg5_9: -7687872579658669269
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
