@@ -69,7 +69,7 @@ public class Platform : MonoBehaviour
         localScale.x *= -1;
         transform.localScale = localScale;
     }
-    
+
     /*private void OnDrawGizmos()
     {
         if (pointA == null || pointB == null)
@@ -78,6 +78,10 @@ public class Platform : MonoBehaviour
         Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
         Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
     }*/
+    public void Reset()
+    {
+        PlayerOnPlatform = false;
+    }
 }
 
 
