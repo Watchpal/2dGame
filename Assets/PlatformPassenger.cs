@@ -4,6 +4,8 @@ public class PlatformPassenger : MonoBehaviour
 {
     private MovingPlatform platform;
 
+   
+
     private void LateUpdate()
     {
         if (platform != null)
@@ -24,4 +26,5 @@ public class PlatformPassenger : MonoBehaviour
             platform = null;
         }
     }
+   
 }

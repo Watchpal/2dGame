@@ -112,6 +112,17 @@ public class GameManager : MonoBehaviour
             {
                 platformSprite.ResetSprite();
             }
+
+            foreach (MovingPlatform platform in FindObjectsByType<MovingPlatform>())
+            {
+                platform.ResetPlatform();
+            }
+
+            foreach (Platform platform in FindObjectsByType<Platform>())
+            {
+                platform.Reset();
+            }
+
         });
        
     }
