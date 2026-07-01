@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
 
      private ScreenWipe screenWipe;
     private CinemachineCamera cinemachineCamera;
-    private CinemachineBrain brain;
+    
+    private CinemachineConfiner2D confiner;
 
     private void Awake()
     {
@@ -29,7 +30,8 @@ public class GameManager : MonoBehaviour
         }
         screenWipe = FindAnyObjectByType<ScreenWipe>();
         cinemachineCamera = FindAnyObjectByType<CinemachineCamera>();
-        brain = Camera.main.GetComponent<CinemachineBrain>();
+        confiner = FindAnyObjectByType<CinemachineConfiner2D>();
+
 
 
     }
@@ -72,16 +74,20 @@ public class GameManager : MonoBehaviour
 
             Debug.Log("player dies");
 
-
+            float oldDamping = confiner.Damping;
+            float oldSlowingDistance = confiner.SlowingDistance;
             Vector3 oldPosition = player.transform.position;
-            
+
+            confiner.Damping = 0f;
+            confiner.SlowingDistance = 0f;
+
             player.transform.position = currentCheckpoint;
 
 
             CinemachineCore.OnTargetObjectWarped(player.transform, currentCheckpoint - oldPosition);
 
-
-
+            confiner.Damping = oldDamping;
+            confiner.SlowingDistance = oldSlowingDistance;
 
             //make player drop dandelion
             CharacterMovement playerMovement =
