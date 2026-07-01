@@ -37,7 +37,7 @@ public class ScreenWipe : MonoBehaviour
         // Execute whatever the GameManager wants while the screen is black.
         action?.Invoke();
 
-        yield return WipeOut();
+        yield return WipeOut(player);
 
         if (player != null)
             player.SetMovementEnabled(true);
@@ -63,9 +63,10 @@ public class ScreenWipe : MonoBehaviour
         panel.anchoredPosition = Vector2.zero;
     }
 
-    private IEnumerator WipeOut()
+    private IEnumerator WipeOut(CharacterMovement player)
     {
         float t = 0f;
+        bool movementEnabled = false;
 
         while (t < duration)
         {
@@ -77,9 +78,20 @@ public class ScreenWipe : MonoBehaviour
             float y = Mathf.Lerp(0f, -panelHeight, progress);
             panel.anchoredPosition = new Vector2(0f, y);
 
+            if (!movementEnabled && progress >= 0.4f)
+            {
+                movementEnabled = true;
+
+                if (player != null)
+                    player.SetMovementEnabled(true);
+            }
+
             yield return null;
         }
 
         panel.anchoredPosition = new Vector2(0f, -panelHeight);
+
+        if (!movementEnabled && player != null)
+            player.SetMovementEnabled(true);
     }
 }
