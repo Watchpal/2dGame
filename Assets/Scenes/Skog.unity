@@ -21039,11 +21039,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 476.6
+      value: 161.9
       objectReference: {fileID: 0}
     - target: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -45
+      value: -52.7
       objectReference: {fileID: 0}
     - target: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26498,6 +26498,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39e9bdd8270776e4a8782aa83d4fe399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  jumpClips:
+  - {fileID: 8300000, guid: 00cdb8335aa40c6459d44dd9ff71a9e1, type: 3}
+  - {fileID: 8300000, guid: ab15eab55d4a4bc409cf0ee0833ea1cf, type: 3}
+  hurtClip: {fileID: 0}
+  walkClip: {fileID: 0}
+  landClip: {fileID: 0}
 --- !u!82 &1932786241
 AudioSource:
   m_ObjectHideFlags: 0
@@ -26510,7 +26516,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -29599,11 +29605,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4437954135279001693, guid: f80c3b8fd0aa63741a9ca9deb2d00a7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 476.6
+      value: 168.2952
       objectReference: {fileID: 0}
     - target: {fileID: 4437954135279001693, guid: f80c3b8fd0aa63741a9ca9deb2d00a7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -44.5
+      value: -47.74789
       objectReference: {fileID: 0}
     - target: {fileID: 4437954135279001693, guid: f80c3b8fd0aa63741a9ca9deb2d00a7c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29841,11 +29847,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 363682814818932862, guid: 60b5d664c0b70474a89734c49da5ffb8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 476.6
+      value: 161.9
       objectReference: {fileID: 0}
     - target: {fileID: 363682814818932862, guid: 60b5d664c0b70474a89734c49da5ffb8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -44.5
+      value: -52.2
       objectReference: {fileID: 0}
     - target: {fileID: 363682814818932862, guid: 60b5d664c0b70474a89734c49da5ffb8, type: 3}
       propertyPath: m_LocalPosition.z
