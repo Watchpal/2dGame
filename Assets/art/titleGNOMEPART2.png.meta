@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 3fc2fc0fbfe8f9148b96c12a0ebbf5e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5746944784234104131
+    second: titleGNOMEPART2_0
+  - first:
+      213: -6014852611906813786
+    second: titleGNOMEPART2_1
+  - first:
+      213: -3652243141967123120
+    second: titleGNOMEPART2_2
+  - first:
+      213: -1010464059542790483
+    second: titleGNOMEPART2_3
+  - first:
+      213: -6937893154311435896
+    second: titleGNOMEPART2_4
+  - first:
+      213: 6779958068426704459
+    second: titleGNOMEPART2_5
+  - first:
+      213: -3368807162390333770
+    second: titleGNOMEPART2_6
+  - first:
+      213: -7071447115720292581
+    second: titleGNOMEPART2_7
+  - first:
+      213: 972909429825262712
+    second: titleGNOMEPART2_8
+  - first:
+      213: -4744153686696854452
+    second: titleGNOMEPART2_9
+  - first:
+      213: 4530588883301772282
+    second: titleGNOMEPART2_10
+  - first:
+      213: 1602738490584099866
+    second: titleGNOMEPART2_11
+  - first:
+      213: -5513548899585750908
+    second: titleGNOMEPART2_12
+  - first:
+      213: -7097533368002048349
+    second: titleGNOMEPART2_13
+  - first:
+      213: 8214179176499105027
+    second: titleGNOMEPART2_14
+  - first:
+      213: 3600866252243963911
+    second: titleGNOMEPART2_15
+  - first:
+      213: -7035437930567170488
+    second: titleGNOMEPART2_16
+  - first:
+      213: -357259732621922191
+    second: titleGNOMEPART2_17
+  - first:
+      213: -5838986270705696294
+    second: titleGNOMEPART2_18
+  - first:
+      213: 6317243608309299283
+    second: titleGNOMEPART2_19
+  - first:
+      213: -7925948567583937686
+    second: titleGNOMEPART2_20
+  - first:
+      213: -2467956205495717941
+    second: titleGNOMEPART2_21
+  - first:
+      213: -420649859470514482
+    second: titleGNOMEPART2_22
+  - first:
+      213: 4875067923722908353
+    second: titleGNOMEPART2_23
+  - first:
+      213: -6471561955229558196
+    second: titleGNOMEPART2_24
+  - first:
+      213: -3291646959800412113
+    second: titleGNOMEPART2_25
+  - first:
+      213: -2902008905404109020
+    second: titleGNOMEPART2_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: titleGNOMEPART2_0
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1894
+        width: 385
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345ce0825df31cf40800000000000000
+      internalID: 5746944784234104131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_1
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1956
+        width: 225
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0c6f2ea63f68ca0800000000000000
+      internalID: -6014852611906813786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_2
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1919
+        width: 276
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d61b97630a05dc0800000000000000
+      internalID: -3652243141967123120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_3
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 2224
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae17a0aa4c1af1f0800000000000000
+      internalID: -1010464059542790483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_4
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 2112
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88907a74fe6a7bf90800000000000000
+      internalID: -6937893154311435896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_5
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1222
+        width: 344
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b460e9401ff371e50800000000000000
+      internalID: 6779958068426704459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_6
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1737
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6bee80cb79f31d0800000000000000
+      internalID: -3368807162390333770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_7
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1728
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17088b705c2ddd90800000000000000
+      internalID: -7071447115720292581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_8
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1710
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874dc53c8f7708d00800000000000000
+      internalID: 972909429825262712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_9
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1571
+        width: 45
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cf2988b51692eb0800000000000000
+      internalID: -4744153686696854452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_10
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1262
+        width: 300
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb2984d592efde30800000000000000
+      internalID: 4530588883301772282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_11
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1668
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c6c1f5a221e3610800000000000000
+      internalID: 1602738490584099866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_12
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1299
+        width: 238
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4880274ec70fb73b0800000000000000
+      internalID: -5513548899585750908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_13
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 1558
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae81c2910f708d90800000000000000
+      internalID: -7097533368002048349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_14
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1282
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30dc3a0c070aef170800000000000000
+      internalID: 8214179176499105027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 387
+        width: 824
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70091b837c8d8f130800000000000000
+      internalID: 3600866252243963911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_16
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1119
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8460c3d3a7a1d5e90800000000000000
+      internalID: -7035437930567170488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_17
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 846
+        width: 473
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170f4808a22ca0bf0800000000000000
+      internalID: -357259732621922191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_18
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 812
+        width: 204
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1443e4ce0c7fea0800000000000000
+      internalID: -5838986270705696294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_19
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 396
+        width: 283
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358f1e0779b5ba750800000000000000
+      internalID: 6317243608309299283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_20
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1038
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ba42175cf510290800000000000000
+      internalID: -7925948567583937686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_21
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 791
+        width: 230
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfe43a28ee00cdd0800000000000000
+      internalID: -2467956205495717941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_22
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 793
+        width: 226
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec621777e2d892af0800000000000000
+      internalID: -420649859470514482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_23
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 1035
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2b7698278b7a340800000000000000
+      internalID: 4875067923722908353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_24
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 853
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a1c9480b46036a0800000000000000
+      internalID: -6471561955229558196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_25
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 779
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f281a1ba788b152d0800000000000000
+      internalID: -3291646959800412113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titleGNOMEPART2_26
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 287
+        width: 214
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f2e5aa64ef9b7d0800000000000000
+      internalID: -2902008905404109020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      titleGNOMEPART2_0: 5746944784234104131
+      titleGNOMEPART2_1: -6014852611906813786
+      titleGNOMEPART2_10: 4530588883301772282
+      titleGNOMEPART2_11: 1602738490584099866
+      titleGNOMEPART2_12: -5513548899585750908
+      titleGNOMEPART2_13: -7097533368002048349
+      titleGNOMEPART2_14: 8214179176499105027
+      titleGNOMEPART2_15: 3600866252243963911
+      titleGNOMEPART2_16: -7035437930567170488
+      titleGNOMEPART2_17: -357259732621922191
+      titleGNOMEPART2_18: -5838986270705696294
+      titleGNOMEPART2_19: 6317243608309299283
+      titleGNOMEPART2_2: -3652243141967123120
+      titleGNOMEPART2_20: -7925948567583937686
+      titleGNOMEPART2_21: -2467956205495717941
+      titleGNOMEPART2_22: -420649859470514482
+      titleGNOMEPART2_23: 4875067923722908353
+      titleGNOMEPART2_24: -6471561955229558196
+      titleGNOMEPART2_25: -3291646959800412113
+      titleGNOMEPART2_26: -2902008905404109020
+      titleGNOMEPART2_3: -1010464059542790483
+      titleGNOMEPART2_4: -6937893154311435896
+      titleGNOMEPART2_5: 6779958068426704459
+      titleGNOMEPART2_6: -3368807162390333770
+      titleGNOMEPART2_7: -7071447115720292581
+      titleGNOMEPART2_8: 972909429825262712
+      titleGNOMEPART2_9: -4744153686696854452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
