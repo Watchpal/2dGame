@@ -1186,6 +1186,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &918261701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4531585031999787022, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
+  m_PrefabInstance: {fileID: 887282011373772265}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &981916426
 GameObject:
   m_ObjectHideFlags: 0
@@ -3815,13 +3820,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4531585031999787022, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2427796372091901438}
   m_SourcePrefab: {fileID: 100100000, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
 --- !u!4 &2427796372091901429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4052606435902434222, guid: a89edf463f764a442bfc469e8ad45662, type: 3}
   m_PrefabInstance: {fileID: 887282011373772265}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2427796372091901438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918261701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e9bdd8270776e4a8782aa83d4fe399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterAudio
+  audioSource: {fileID: 0}
+  jumpClip: {fileID: 0}
+  hurtClip: {fileID: 0}
+  walkClip: {fileID: 0}
+  landClip: {fileID: 0}
 --- !u!1001 &3085116683851172127
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class ShowSpriteOnTrigger : MonoBehaviour
 {
-    public GameObject spriteToShow;
+    public GameObject[] spriteToShow;
     private void Start()
     {
         //spriteToShow.SetActive(false); // Hide at start
-
-        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        foreach (GameObject sprite in spriteToShow)
+        {
+            sprite.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        //gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -15,18 +18,24 @@ public class ShowSpriteOnTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //spriteToShow.SetActive(true);
+            foreach (GameObject sprite in spriteToShow)
+            {
 
-            gameObject.GetComponent<SpriteRenderer>().enabled = true;
+                sprite.GetComponent<SpriteRenderer>().enabled = true;
+            }
+
         }
-
-}
+    }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            //spriteToShow.SetActive(false);
+            //spriteToShow.SetActive(true);
+            foreach (GameObject sprite in spriteToShow)
+            {
 
-            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                sprite.GetComponent<SpriteRenderer>().enabled = true;
+            }
         }
     }
 }
