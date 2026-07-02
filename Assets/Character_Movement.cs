@@ -61,16 +61,20 @@ public class CharacterMovement : MonoBehaviour
 
     private bool movementEnabled = true;
 
+    private CharacterAudio characterAudio;
+
     public void SetMovementEnabled(bool enabled)
     {
         movementEnabled = enabled;
 
         if (!enabled)
             rb.linearVelocity = Vector2.zero;
+        
     }
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        characterAudio= GetComponent<CharacterAudio>();
     }
 
     private void Update()
@@ -176,6 +180,8 @@ public class CharacterMovement : MonoBehaviour
                         wallJumpX,
                         wallJumpY
                     );
+                characterAudio.PlayJump();
+
                 FacingRight = true;
                 return;
 
@@ -188,6 +194,8 @@ public class CharacterMovement : MonoBehaviour
                         -wallJumpX,
                         wallJumpY
                     );
+                characterAudio.PlayJump();
+
                 FacingRight = false;
                 return;
             }
@@ -204,6 +212,7 @@ public class CharacterMovement : MonoBehaviour
                 rb.linearVelocity.x,
                 jumpForce
             );
+        characterAudio.PlayJump();
 
         jumpBufferTimeCounter = 0;
         coyoteTimeCounter = 0;
