@@ -28,6 +28,11 @@ public class bur3 : MonoBehaviour
             isFree = true;
             anim.SetTrigger("isFree");
 
+            if (other.CompareTag("Player"))
+            {
+                Debug.Log("Touched!");
+                anim.SetTrigger("isFree");
+            }
         }
     }
 }
