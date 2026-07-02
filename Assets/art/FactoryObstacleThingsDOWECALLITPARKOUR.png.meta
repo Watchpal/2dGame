@@ -532,8 +532,8 @@ TextureImporter:
       name: FactoryObstacleThingsDOWECALLITPARKOUR_32
       rect:
         serializedVersion: 2
-        x: 3056
-        y: 453
+        x: 3061
+        y: 569
         width: 423
         height: 514
       alignment: 0
