@@ -24,6 +24,11 @@ public class CharacterMovement : MonoBehaviour
     [Header("Dandelion")]
     public Transform carryPoint;
     public LayerMask dandelionLayer;
+    [SerializeField] private float normalMass = 1f;
+    [SerializeField] private float dandelionMass = 0.2f;
+    private Dandelion highlightedDandelion;
+
+    private int dandelionsSupportingPlayer = 0;
 
     private Dandelion carriedDandelion;
 
@@ -74,6 +79,7 @@ public class CharacterMovement : MonoBehaviour
         HandleWallSliding();
         UpdateJumpTimers();
         HandleBufferedJump();
+        UpdatePickupHighlight();
     }
 
     private void FixedUpdate()
@@ -279,40 +285,111 @@ public class CharacterMovement : MonoBehaviour
             DropDandelion();
     }
 
-    private void TryPickup()
+    private void UpdatePickupHighlight()
     {
-        Vector3 pickUpPos = transform.position + new Vector3(0f, 0.3f, 0f);
-        Collider2D hit =
-            Physics2D.OverlapCircle(
+        if (carriedDandelion != null)
+        {
+            if (highlightedDandelion != null)
+            {
+                highlightedDandelion.SetHighlighted(false);
+                highlightedDandelion = null;
+            }
+
+            return;
+        }
+
+        Vector3 pickUpPos =
+            transform.position + new Vector3(0f, 0.3f, 0f);
+
+        Vector2 pickUpSize =
+            new Vector2(2.9f, 2.4f);
+
+        Collider2D[] hits =
+            Physics2D.OverlapBoxAll(
                 pickUpPos,
-                1.2f,
+                pickUpSize,
+                0f,
                 dandelionLayer
             );
 
-        if (!hit)
+        Dandelion closest = null;
+        float closestDistance = Mathf.Infinity;
+
+        foreach (Collider2D hit in hits)
+        {
+            Dandelion dandelion =
+                hit.GetComponentInParent<Dandelion>();
+
+            if (dandelion == null)
+                continue;
+
+            float distance =
+                Vector2.Distance(
+                    transform.position,
+                    dandelion.Position
+                );
+
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closest = dandelion;
+            }
+        }
+
+        if (closest == highlightedDandelion)
             return;
 
-        carriedDandelion =
-            hit.GetComponentInParent<Dandelion>();
+        if (highlightedDandelion != null)
+            highlightedDandelion.SetHighlighted(false);
 
-        if (carriedDandelion != null)
-        {
-            carriedDandelion.PickUp(carryPoint);
-        }
+        highlightedDandelion = closest;
+
+        if (highlightedDandelion != null)
+            highlightedDandelion.SetHighlighted(true);
     }
-    
+
+    private void TryPickup()
+    {
+        if (highlightedDandelion == null)
+            return;
+
+        carriedDandelion = highlightedDandelion;
+        carriedDandelion.PickUp(carryPoint);
+
+        highlightedDandelion.SetHighlighted(false);
+        highlightedDandelion = null;
+    }
+
     private void DropDandelion()
     {
         if (carriedDandelion == null)
             return;
 
-        Vector2 throwDirection =
-        moveInput.normalized;
+        Vector2 throwVelocity;
 
-        Vector2 throwVelocity =
-            rb.linearVelocity +
-            throwDirection * 6f;
-        throwVelocity.y = throwVelocity.y / 2;
+        if (moveInput.y < -0.5f)
+        {
+            throwVelocity = Vector2.zero;
+        }
+        else
+        {
+            Vector2 throwDirection;
+
+            if (moveInput.sqrMagnitude < 0.01f)
+            {
+                throwDirection = FacingRight ? Vector2.right : Vector2.left;
+            }
+            else
+            {
+                throwDirection = moveInput.normalized;
+            }
+
+            throwVelocity =
+                rb.linearVelocity +
+                throwDirection * 9f;
+
+            throwVelocity.y *= 0.5f;
+        }
 
         carriedDandelion.Drop(throwVelocity);
         carriedDandelion = null;
@@ -326,9 +403,37 @@ public class CharacterMovement : MonoBehaviour
         carriedDandelion.Drop(Vector2.zero);
         carriedDandelion = null;
     }
+    public void EnterDandelionPlatform()
+    {
+        dandelionsSupportingPlayer++;
+
+        if (dandelionsSupportingPlayer == 1)
+        {
+            rb.mass = dandelionMass;
+        }
+    }
+
+    public void ExitDandelionPlatform()
+    {
+        dandelionsSupportingPlayer =
+            Mathf.Max(0, dandelionsSupportingPlayer - 1);
+
+        if (dandelionsSupportingPlayer == 0)
+        {
+            rb.mass = normalMass;
+        }
+    }
 
     private void OnDrawGizmosSelected()
     {
+        Gizmos.color = Color.blue;
+        Vector3 pickUpPos = transform.position + new Vector3(0f, 0.3f, 0f);
+        Vector2 pickUpSize = new Vector2(2.9f, 2.4f);
+        Gizmos.DrawWireCube(
+            pickUpPos,
+            pickUpSize
+        );
+
         Gizmos.color = Color.yellow;
 
         Gizmos.DrawWireCube(
@@ -349,6 +454,7 @@ public class CharacterMovement : MonoBehaviour
             groundCheckRadius
         );
     }
+
 
     public Vector2 Velocity =>
         rb.linearVelocity;

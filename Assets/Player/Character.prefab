@@ -258,6 +258,8 @@ MonoBehaviour:
   dandelionLayer:
     serializedVersion: 2
     m_Bits: 256
+  normalMass: 1
+  dandelionMass: 0.125
   wallCheckLeft: {fileID: 2394887651270001445}
   wallCheckRight: {fileID: 4427650218368627402}
   wallCheckSize: {x: 0.1, y: 1.4}
@@ -265,8 +267,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 264
   hasWallJump: 1
-  wallJumpX: 9.6
-  wallJumpY: 7.5
+  wallJumpX: 12
+  wallJumpY: 9.25
 --- !u!114 &8913330407695537231
 MonoBehaviour:
   m_ObjectHideFlags: 0

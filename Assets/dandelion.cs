@@ -5,6 +5,14 @@ public class Dandelion : MonoBehaviour
     [Header("References")]
     [SerializeField] private Rigidbody2D flowerRb;
     [SerializeField] private Transform stemVisual;
+    [SerializeField] private Transform standCheck;
+    [SerializeField]
+    private Vector2 standCheckSize =
+        new Vector2(0.8f, 0.15f);
+
+    [SerializeField] private LayerMask playerLayer;
+
+    private CharacterMovement playerOnTop;
 
 
     [Header("Carry")]
@@ -19,16 +27,21 @@ public class Dandelion : MonoBehaviour
 
     [Header("Visuals")]
     [SerializeField] private Sprite idleSprite;
-    [SerializeField] private Sprite thrownSprite;
     [SerializeField] private Sprite settlingSprite;
     [SerializeField] private Sprite platformSprite;
+    [SerializeField] private Sprite floatSprite;
 
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private SpriteRenderer stemSpriteRenderer;
+
+    private Color flowerDefaultColor;
+    private Color stemDefaultColor;
+
 
     private enum DandelionState
     {
         Idle,
-        Thrown,
+        Float,
         Settling,
         Platform
     }
@@ -41,11 +54,14 @@ public class Dandelion : MonoBehaviour
         flowerRb.gameObject.layer =
     LayerMask.NameToLayer("Dandelion");
         startPosition = transform.position;
+        flowerDefaultColor = spriteRenderer.color;
+        stemDefaultColor = stemSpriteRenderer.color;
     }
     private void Update()
     {
         UpdateStemVisual();
         HandleGlideAfterThrown();
+        UpdatePlatformSupport();
     }
 
     private void FixedUpdate()
@@ -55,6 +71,11 @@ public class Dandelion : MonoBehaviour
 
         if (holder == null)
             return;
+
+        if (flowerRb.linearVelocityY<0f)
+        {
+            SetState(DandelionState.Float);
+        }
 
         Vector2 targetPosition =
             (Vector2)holder.position +
@@ -68,6 +89,8 @@ public class Dandelion : MonoBehaviour
             );
 
         flowerRb.MovePosition(newPosition);
+        
+        
     }
 
     private void UpdateStemVisual()
@@ -128,8 +151,8 @@ public class Dandelion : MonoBehaviour
                 spriteRenderer.sprite = idleSprite;
                 break;
 
-            case DandelionState.Thrown:
-                spriteRenderer.sprite = thrownSprite;
+            case DandelionState.Float:
+                spriteRenderer.sprite = floatSprite;
                 break;
 
             case DandelionState.Settling:
@@ -151,6 +174,7 @@ public class Dandelion : MonoBehaviour
     }
     public void PickUp(Transform carryPoint)
     {
+        SetHighlighted(false);
         holder = carryPoint;
         isCarried = true;
 
@@ -158,8 +182,8 @@ public class Dandelion : MonoBehaviour
         flowerRb.angularVelocity = 0f;
         SetLayerRecursively(gameObject, LayerMask.NameToLayer("CarriedDandelion"));
         SetState(DandelionState.Idle);
-        timeSinceFrozen = 999f;
-        timeSinceThrown = 999f;
+        timeSinceFrozen = 990009009f;
+        timeSinceThrown = 999999999f;
         hasBeenFrozen = true;
     }
 
@@ -176,7 +200,8 @@ public class Dandelion : MonoBehaviour
 
     private void HandleGlideAfterThrown()
     {
-
+        if (holder != null)
+            return;
         timeSinceThrown += Time.deltaTime;
         timeSinceFrozen += Time.deltaTime;
         flowerRb.linearVelocity *= 0.9965f;
@@ -185,6 +210,7 @@ public class Dandelion : MonoBehaviour
         if (!hasBeenFrozen && timeSinceThrown < 999999)
             flowerRb.gravityScale = 0f;
         SetState(DandelionState.Idle);
+        flowerRb.bodyType = RigidbodyType2D.Dynamic;
 
         if (flowerRb.linearVelocity.magnitude > 0.2f)
             return;
@@ -223,14 +249,84 @@ public class Dandelion : MonoBehaviour
         }
     }
 
+    private void UpdatePlatformSupport()
+    {
+        
+
+        Collider2D hit =
+            Physics2D.OverlapBox(
+                standCheck.position,
+                standCheckSize,
+                0f,
+                playerLayer
+            );
+
+        CharacterMovement currentPlayer = null;
+
+        if (hit != null)
+        {
+            currentPlayer =
+                hit.GetComponent<CharacterMovement>();
+        }
+
+        if (currentPlayer == playerOnTop)
+            return;
+
+        if (playerOnTop != null)
+        {
+            playerOnTop.ExitDandelionPlatform();
+        }
+
+        playerOnTop = currentPlayer;
+
+        if (playerOnTop != null)
+        {
+            playerOnTop.EnterDandelionPlatform();
+        }
+    }
+
     public void Reset()
     {
+        if (playerOnTop != null)
+        {
+            playerOnTop.ExitDandelionPlatform();
+            playerOnTop = null;
+        }
         timeSinceThrown = 99999999f;
+        timeSinceFrozen = 99999999f;
         hasBeenFrozen = true;
         flowerRb.bodyType = RigidbodyType2D.Dynamic;
         flowerRb.position=startPosition;
     }
 
+    public void SetHighlighted(bool highlighted)
+    {
+        Color targetColor =
+            highlighted
+            ? new Color(1f, 0.95f, 0.6f)
+            : flowerDefaultColor;
+
+        spriteRenderer.color = targetColor;
+
+        stemSpriteRenderer.color =
+            highlighted
+            ? new Color(1f, 0.95f, 0.6f)
+            : stemDefaultColor;
+        flowerRb.transform.localScale = highlighted ? Vector3.one * 1.05f : Vector3.one * 1f;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (standCheck == null)
+            return;
+
+        Gizmos.color = Color.green;
+
+        Gizmos.DrawWireCube(
+            standCheck.position,
+            standCheckSize
+        );
+    }
 
     public bool IsCarried =>
         isCarried;
