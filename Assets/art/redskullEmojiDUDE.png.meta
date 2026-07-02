@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9255cc3ffe6cfdf48914cbd87fd6f251
+guid: e2ee2a267c0038e448da5908c09c83a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2292402802788069611
-    second: Robot idel_0008_0
+      213: -5091019798857399339
+    second: redskullEmojiDUDE_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot idel_0008_0
+      name: redskullEmojiDUDE_0
       rect:
         serializedVersion: 2
-        x: 305
-        y: 0
-        width: 1223
-        height: 1077
+        x: 73
+        y: 33
+        width: 321
+        height: 413
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be0fa46143040df10800000000000000
-      internalID: 2292402802788069611
+      spriteID: 5d3cf9067701959b0800000000000000
+      internalID: -5091019798857399339
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Robot idel_0008_0: 2292402802788069611
+      redskullEmojiDUDE_0: -5091019798857399339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
