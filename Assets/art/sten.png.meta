@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: cf501c80660447046b158270aec750c7
+guid: 6d0cef044ed9ddc44b24c7a0d5b0b790
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7995155558444002152
-    second: PlatP2floatie_0
+      213: -4588141277307187508
+    second: sten_0
   - first:
-      213: -3082755318037908005
-    second: PlatP2floatie_1
+      213: -234935523032795211
+    second: sten_1
   - first:
-      213: -1317323718612510229
-    second: PlatP2floatie_2
+      213: 7279659740733362919
+    second: sten_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,17 +52,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 81, y: 93, z: 80, w: 41}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlatP2floatie_0
+      name: sten_0
       rect:
         serializedVersion: 2
         x: 69
@@ -119,16 +119,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 86b6b09ce9f74fe60800000000000000
-      internalID: 7995155558444002152
+      spriteID: cce4cca31d5a350c0800000000000000
+      internalID: -4588141277307187508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlatP2floatie_1
+      name: sten_1
       rect:
         serializedVersion: 2
         x: 71
@@ -139,18 +139,22 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: -53, y: -15}
+        - {x: 47, y: -15}
+        - {x: 47, y: 42}
+        - {x: -53, y: 42}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bd577e21f5ad735d0800000000000000
-      internalID: -3082755318037908005
+      spriteID: 5b77284f2675dbcf0800000000000000
+      internalID: -234935523032795211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlatP2floatie_2
+      name: sten_2
       rect:
         serializedVersion: 2
         x: 108
@@ -163,25 +167,20 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be997e1be0de7bde0800000000000000
-      internalID: -1317323718612510229
+      spriteID: 7e2df1407fb860560800000000000000
+      internalID: 7279659740733362919
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline:
-    - - {x: -55, y: 1}
-      - {x: -1, y: -57}
-      - {x: 61, y: 1}
-      - {x: 61, y: 57}
-      - {x: -55, y: 57}
+    outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: d49c1bf7d62f0ad46b9e1dc9ffa8306b
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -190,9 +189,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlatP2floatie_0: 7995155558444002152
-      PlatP2floatie_1: -3082755318037908005
-      PlatP2floatie_2: -1317323718612510229
+      sten_0: -4588141277307187508
+      sten_1: -234935523032795211
+      sten_2: 7279659740733362919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
