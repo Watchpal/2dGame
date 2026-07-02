@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Skog.unity
     guid: 44cde100e616f5d4897a0e2742f98972
   - enabled: 1
+    path: Assets/Scenes/Fabrik.unity
+    guid: 9f55bcbce9245684fa7843ba9608944f
+  - enabled: 1
     path: Assets/Scenes/Grotta.unity
     guid: 9ebc5d9565c1d49479cc21a2dc0b8f55
   m_configObjects:
